@@ -4,9 +4,11 @@
 ======
 
 Course Topics
-  Determinants -- such as education, people,
-  Consequences
-  Market Failure -- electric cars? flying cars?
+----
+
+- Determinants -- such as education, people,
+- Consequences
+- Market Failure -- electric cars? flying cars?
 
 Key Questions
   What drives innovation?
