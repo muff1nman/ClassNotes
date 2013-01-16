@@ -249,3 +249,77 @@ less sloped demand curve
 #### Fertile ground for innovation!
 
 
+16 - 01 - 2013
+======
+
+The growth miracle of free-enterprise?
+---
+
+Stock market crash - loans to people who could not afford - sell the loans
+(which were overpriced)
+
+Market Failure
+-----
+
+- Monopoly
+- Externality: A benefit/negative from someone else buying or doing something
+- public goods: nonrival - ones use will not lessen someone else's use
+
+Gov regulation
+
+The market for innovation: How much innovation is optimal for society
+-----
+
+Innovation has externalities so the social demand is actually higher than the
+firm(s) private demand. 
+
+    S_p < S_s
+
+    D_p < D_s
+
+    Q_p < Q_s
+
+Knowledge as a public good
+-----
+
+Not always the case because
+- patents
+- Secrecy
+- holding back
+
+non-rival good: the use of the good does not reduce the good's availability to
+others.
+
+it can be non-excludable too - "pure public good"
+
+marginal cost approaches zero for public goods
+
+Innovation as a private good with positive externalities
+-----
+
+patents
+
+    invent a bicycle chain -> bicycle chain -> patent -> (part of) knowledge becomes
+    available. 
+
+spillovers: the firm cannot charge all the beneficiaries of its innovation
+
+Indivisiblities, uncertainty, and captial markets
+-----
+
+eg. google 
+- search engine into cars, maps, phone, google glass, tv, 
+
+Financiers
+- venture capitalists
+- banks
+
+Incomplete knowledge
+- hard for people to recognize potential
+
+Governments are hesitant to collaboration 
+- monopolistic 
+
+Patent races and duplication
+----
+
