@@ -1,0 +1,71 @@
+<h3>Quiz from last time</h3>
+
+<ol>
+<li>What are the four types of cardinality
+<ul>
+<li>one to one (1:1)</li>
+<li>one to many (1:M)</li>
+<li>many to many (M:N)</li>
+<li>0..1</li>
+</ul></li>
+<li>Courses and students, what is the strength of this relationship
+<ul>
+<li>many to many</li>
+<li>strong to strong</li>
+</ul></li>
+<li>Not all students own a car but all cars are owned by students
+<ul>
+<li>weak to strong</li>
+</ul></li>
+</ol>
+
+<h3>Today</h3>
+
+<h4>ER model</h4>
+
+<pre><code>- models the world or the domain
+- start with the world, then requirements, then high level model (UML or
+  ER), and then relational model
+</code></pre>
+
+<h4>How not to model data</h4>
+
+<p>nouns belonging to other objects in the data model</p>
+
+<h4>Cardinality</h4>
+
+<p>Referencing quiz from last time</p>
+
+<h4>Strength</h4>
+
+<p>Its about identity
+relationship strength is actually degree of participation -- total participation
+    - complete
+    - partial</p>
+
+<h4>ER diagram</h4>
+
+<h5>Superhero</h5>
+
+<ul>
+<li>name</li>
+<li>gender</li>
+<li>address</li>
+<li>team ( optional )</li>
+<li>1 or more powers</li>
+<li>vehicle with 1 or more colors</li>
+</ul>
+
+<p>// see back of last times quiz for diagram</p>
+
+<p>Key attribute is underlined
+Attributes are circles shooting off
+object is a rectangle box
+attributes can have attributes ( also called a composite attribute )
+Attributes with more than one value are double circled ( multivalued attribute )
+Double line indicates a total participation in the relationship</p>
+
+<p>Cardinality and degree of participation are separate descriptions</p>
+
+<p>1..* -- complete participation
+0..* -- partial participation</p>
