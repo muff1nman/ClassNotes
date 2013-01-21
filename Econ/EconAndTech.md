@@ -308,7 +308,7 @@ Indivisiblities, uncertainty, and captial markets
 -----
 
 eg. google 
-- search engine into cars, maps, phone, google glass, tv, 
+- search engine into cars, maps, phone, Google glass, TV, 
 
 Financiers
 - venture capitalists
@@ -323,3 +323,47 @@ Governments are hesitant to collaboration
 Patent races and duplication
 ----
 
+
+21 - 01 - 2013
+======
+
+Intellectual Property Rights
+---
+
+The length of a patent is very general. Ideally it should be long enough for the
+investing company to make back their costs plus a little bit for profit.
+
+Trade marks are important for building reputation and not having another company
+use your reputation.
+
+Copyright mainly entertains written media although other media such as music may
+also be covered.
+
+Patents
+----
+
+Novelty - 'newness'
+Non-obviousness - you can't patent something that is stupidly obvious
+Suitability for industrial application - commercial value
+
+As patent law gets too strong, there is very little return to society.  Also
+more lawsuits as a result leads to inefficiency ( time and capital ) 
+
+USA has pretty strong patent law
+
+Filing a patent takes around a year or so
+
+#### Disclosure carries spillover risk for the filing firm
+alternatives:
+- trade secret
+- rely on lead time, first to market
+
+####Strategic patenting
+Makes it hard for smaller firms to compete with the larger firms
+
+#### Leahy-Smith America Invents Act (AIA)
+People across the world can invent things at the same time -> hard for courts to
+manage who invent first
+
+Encouarges firms to patent trade secrets otherwise someone else might file
+first.
