@@ -1,71 +1,154 @@
-<h3>Quiz from last time</h3>
+<h1>Fundamentals of Database Systems</h1>
 
-<ol>
-<li>What are the four types of cardinality
+<h1>Chapter 3</h1>
+
+<h4>Definitions</h4>
+
 <ul>
-<li>one to one (1:1)</li>
-<li>one to many (1:M)</li>
-<li>many to many (M:N)</li>
-<li>0..1</li>
+<li><p>database application</p>
+
+<ul>
+<li>a particular database and the associated programs that implement the
+database queries and updates</li>
 </ul></li>
-<li>Courses and students, what is the strength of this relationship
+<li><p>Entity-Relationship Model (ER)</p>
+
 <ul>
-<li>many to many</li>
-<li>strong to strong</li>
+<li>a popular high-level conceptual data model</li>
 </ul></li>
-<li>Not all students own a car but all cars are owned by students
+<li><p>ER diagrams</p>
+
 <ul>
-<li>weak to strong</li>
+<li>the diagrammatic notation associated with the ER model</li>
 </ul></li>
-</ol>
-
-<h3>Today</h3>
-
-<h4>ER model</h4>
-
-<pre><code>- models the world or the domain
-- start with the world, then requirements, then high level model (UML or
-  ER), and then relational model
-</code></pre>
-
-<h4>How not to model data</h4>
-
-<p>nouns belonging to other objects in the data model</p>
-
-<h4>Cardinality</h4>
-
-<p>Referencing quiz from last time</p>
-
-<h4>Strength</h4>
-
-<p>Its about identity
-relationship strength is actually degree of participation -- total participation
-    - complete
-    - partial</p>
-
-<h4>ER diagram</h4>
-
-<h5>Superhero</h5>
+<li><p>Universal Modeling Language (UML)</p>
 
 <ul>
-<li>name</li>
-<li>gender</li>
-<li>address</li>
-<li>team ( optional )</li>
-<li>1 or more powers</li>
-<li>vehicle with 1 or more colors</li>
+<li>an alternative object modeling language</li>
+<li>goes beyond data to specify the design of software modules and their
+interactions with diagrams</li>
+</ul></li>
+<li><p>class diagrams</p>
+
+<ul>
+<li>operations on objects are specified, in addition to spcifing the database
+schema structure</li>
+</ul></li>
+<li><p>functional requirements (FR)</p>
+
+<ul>
+<li>?</li>
+</ul></li>
+<li><p>conceptual schema</p>
+
+<ul>
+<li>a concise description of the data requirements of the users and includes
+detailed descriptions of the entity types, relationships, and constraints</li>
+</ul></li>
+<li><p>logical design OR data model mapping</p>
+
+<ul>
+<li>its result is a database schema in the implementation data model of the
+DBMS.</li>
+</ul></li>
+<li><p>physical design</p>
+
+<ul>
+<li>the internal storage structures, indexes, access paths, and file
+organizations for the database files are specified. </li>
+</ul></li>
+<li><p>entity</p>
+
+<ul>
+<li>a <em>thing</em> in the real world with an independent existence
+<ul>
+<li>physical existence ( person, tree )</li>
+<li>conceptual existence ( company, job )</li>
+</ul></li>
+</ul></li>
+<li><p>attributes</p>
+
+<ul>
+<li>the particular properties that describe an entity</li>
+</ul></li>
+<li><p>entity type</p>
+
+<ul>
+<li>defines a collection or set of entities that have the same attributes.
+They are described by a name and attributes.  </li>
+<li>It describes the schema or intension for a set of entities that share the
+same structure</li>
+</ul></li>
+<li><p>extension</p>
+
+<ul>
+<li>The collection of entities of a particular entity type is grouped into an
+entity set which is also called the extension of the entity type.</li>
+</ul></li>
+<li><p>key OR uniqueness constraint</p>
+
+<ul>
+<li>a key attribute is an attribute of an entity whose value is distinct for
+each individual entity in the entity set.
+xx</li>
+</ul></li>
 </ul>
 
-<p>// see back of last times quiz for diagram</p>
+<h3>3.1 Using High-level Conceptual Data Models for Database Design</h3>
 
-<p>Key attribute is underlined
-Attributes are circles shooting off
-object is a rectangle box
-attributes can have attributes ( also called a composite attribute )
-Attributes with more than one value are double circled ( multivalued attribute )
-Double line indicates a total participation in the relationship</p>
+<p>// insert Figure 3.1</p>
 
-<p>Cardinality and degree of participation are separate descriptions</p>
+<p>The conceptual schema does not include implementation details</p>
 
-<p>1..* -- complete participation
-0..* -- partial participation</p>
+<h3>3.2 An Example Database Application</h3>
+
+<p>// Nothing to see here</p>
+
+<h3>3.3 Entity Types, Entity Sets, Attributes, and Keys</h3>
+
+<p>There are several types of attributes:
+- simple versus composite
+- single valued versus multivalued
+- stored versus derived</p>
+
+<h4>Simple versus Composite Attributes</h4>
+
+<p>Simple are also called atomic attributes</p>
+
+<p>Simple attributes are ones that cannot be further divided. Composite attributes
+form a hierarchy. E.g. street_address can be subdivided into number, street, and
+apt number</p>
+
+<h4>Single-Valued versus Multivalued Attributes</h4>
+
+<p>Single-valued attributes can have only a single value for any particular entity.
+E.g. age</p>
+
+<p>Multi-valued attributes can have a set of values for any particular attribute.
+There many be upper and lower constraints on the number of attributes.  They are
+specified with braces and comma separated values</p>
+
+<h4>Stored versus Derived Attributes</h4>
+
+<p>E.g. age can be derived from date of birth. The age attribute is the <em>derived
+attribute</em> and is said to be <em>derivable from</em> the date of birth
+attribute.  The date of birth attribute is then the <em>stored attribute</em></p>
+
+<h4>Null Values</h4>
+
+<ul>
+<li>unknown value
+<ul>
+<li>the value exists but is not recorded</li>
+<li>it is not known whether the attribute value exists.</li>
+</ul></li>
+</ul>
+
+<h4>Complex Attributes</h4>
+
+<p>Specified by grouping attributes with a set of parenthesis and separating
+attributes with a comma.</p>
+
+<h4>Key Attributes of an Entity Type</h4>
+
+<p>key attribute names are underlined in the ER diagram</p>
