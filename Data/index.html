@@ -31,7 +31,7 @@ interactions with diagrams</li>
 <li><p>class diagrams</p>
 
 <ul>
-<li>operations on objects are specified, in addition to spcifing the database
+<li>operations on objects are specified, in addition to specifying the database
 schema structure</li>
 </ul></li>
 <li><p>functional requirements (FR)</p>
@@ -89,10 +89,80 @@ entity set which is also called the extension of the entity type.</li>
 
 <ul>
 <li>a key attribute is an attribute of an entity whose value is distinct for
-each individual entity in the entity set.
-xx</li>
+each individual entity in the entity set.</li>
+</ul></li>
+<li><p>value set OR domain</p>
+
+<ul>
+<li>specifies the set of values that may be assigned to that attribute for
+each individual entity</li>
+</ul></li>
+<li><p>relationship type </p>
+
+<ul>
+<li>R among n entity types E1,.., En defines a set of associations - or a
+<em>relationship set</em> among entities from these entity types. </li>
+</ul></li>
+<li><p>degree</p>
+
+<ul>
+<li>of a relationship type is the number of participating entity types.</li>
+</ul></li>
+<li><p>cardinality ratio</p>
+
+<ul>
+<li>specifies the maximum number of relationship instances that an entity can
+participate in.  (1:1), (1:N), (M:N), (N:1)</li>
+</ul></li>
+<li><p>participation constraint</p>
+
+<ul>
+<li>specifies whether the existence of an entity depends on its being related
+to another entity via the relationship type.  This constraint specifies
+the minimum number of relationship instances that each entity can
+participate in and is also called the minimum cardinality constraint.
+Two types:
+<ul>
+<li>total participation OR existence dependency
+<ul>
+<li>every entity in the total set of employee entities must be related
+to a department entity via WORKS_FOR</li>
+</ul></li>
+<li>partial participation
+<ul>
+<li>some or part of the set of employee entities are related to some
+department entity via MANAGES, but not necessarily all.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p>weak entity types</p>
+
+<ul>
+<li>entity types that do not have key attributes of their own</li>
+<li>it always has a total participation constraint with respect to its
+identifying relationship because a weak entity cannot be identified
+without an owner identity.</li>
+<li>normally has a partial key</li>
+</ul></li>
+<li><p>regular entity types OR strong entity types</p>
+
+<ul>
+<li>entity types that do have key attributes</li>
+</ul></li>
+<li><p>identifying relationship</p>
+
+<ul>
+<li>the relationship type that relates a weak entity type to its owner</li>
+</ul></li>
+<li><p>partial key</p>
+
+<ul>
+<li>the set of attributes that can uniquely identify weak entities that are
+related to the same owner entity</li>
 </ul></li>
 </ul>
+
+<p>xx</p>
 
 <h3>3.1 Using High-level Conceptual Data Models for Database Design</h3>
 
@@ -152,3 +222,59 @@ attributes with a comma.</p>
 <h4>Key Attributes of an Entity Type</h4>
 
 <p>key attribute names are underlined in the ER diagram</p>
+
+<h4>Value Sets (Domains) of Attributes</h4>
+
+<p>// Nothing too interesting here</p>
+
+<h3>3.4 Relationship Types, Relationship Sets, Roles, and Structural Constraints</h3>
+
+<p>Relationships are displayed with diamond shaped boxes.</p>
+
+<p>Binary relationships ( or relationships with two entities ) are the most common</p>
+
+<p>There are two main types of relationship constraints:
+    - cardinality ratio
+    - participation</p>
+
+<p>The two of these combined are called <em>structural constraints</em> of a
+relationship type.</p>
+
+<h3>3.5 Weak Entity Types</h3>
+
+<p>// Nothing here, just definitions.</p>
+
+<h3>3.6 Refining the ER Design for the COMPANY Database</h3>
+
+<p>// Nothing</p>
+
+<h3>3.7 ER Diagrams, Naming Conventions, and Design Issues</h3>
+
+<h4><em>Alternative</em> ER notation for structural constraints on relationships</h4>
+
+<blockquote>
+  <p>This notation involves associating a pair of integer numbers (min, max) with
+each participation of an entity type E in a relationship type R, where </p>
+
+<pre><code>0 &lt;= min&lt;= max and max = 1
+</code></pre>
+
+<p>The numbers mean that for each entity e in E, e must
+participate in at least min and at most max relationship instances in R at any
+point in time. In this method, min = 0 implies partial participation, whereas
+min > 0 implies total participation.</p>
+</blockquote>
+
+<p>Hint: I prefer the alternative notation</p>
+
+<blockquote>
+  <p>Usually, one uses either the cardinality ratio/single-line/double-line
+notation or the (min, max) notation. The (min, max) notation is more precise,
+and we can use it to specify structural constraints for relationship types of
+any degree. However, it is not sufficient for specifying some key constraints
+on higher-degree relation-ships, as discussed in Section 3.9</p>
+</blockquote>
+
+<p>As discussed in class</p>
+
+<h3>3.8 Example of Other Notation: UML Class Diagrams</h3>

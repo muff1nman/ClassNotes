@@ -62,6 +62,49 @@ Chapter 3
 - value set OR domain
     - specifies the set of values that may be assigned to that attribute for
       each individual entity
+
+- relationship type 
+    - R among n entity types E1,.., En defines a set of associations - or a
+      <em>relationship set</em> among entities from these entity types. 
+
+- degree
+    - of a relationship type is the number of participating entity types.
+
+- cardinality ratio
+    - specifies the maximum number of relationship instances that an entity can
+      participate in.  (1:1), (1:N), (M:N), (N:1)
+
+- participation constraint
+    - specifies whether the existence of an entity depends on its being related
+      to another entity via the relationship type.  This constraint specifies
+      the minimum number of relationship instances that each entity can
+      participate in and is also called the minimum cardinality constraint.
+      Two types:
+        - total participation OR existence dependency
+            - every entity in the total set of employee entities must be related
+              to a department entity via WORKS_FOR
+        - partial participation
+            - some or part of the set of employee entities are related to some
+              department entity via MANAGES, but not necessarily all.
+
+- weak entity types
+    - entity types that do not have key attributes of their own
+    - it always has a total participation constraint with respect to its
+      identifying relationship because a weak entity cannot be identified
+      without an owner identity.
+    - normally has a partial key
+
+- regular entity types OR strong entity types
+    - entity types that do have key attributes
+
+- identifying relationship
+    - the relationship type that relates a weak entity type to its owner
+
+- partial key
+    - the set of attributes that can uniquely identify weak entities that are
+      related to the same owner entity
+
+
 xx
 
 ### 3.1 Using High-level Conceptual Data Models for Database Design
@@ -115,5 +158,46 @@ key attribute names are underlined in the ER diagram
 #### Value Sets (Domains) of Attributes
 // Nothing too interesting here
 
-### 3.4 Relationship Types, Relationship Sets, Roles, and Structural Constrains
+### 3.4 Relationship Types, Relationship Sets, Roles, and Structural Constraints
+Relationships are displayed with diamond shaped boxes.
 
+Binary relationships ( or relationships with two entities ) are the most common
+
+There are two main types of relationship constraints:
+    - cardinality ratio
+    - participation
+
+The two of these combined are called <em>structural constraints</em> of a
+relationship type.
+
+### 3.5 Weak Entity Types
+// Nothing here, just definitions.
+
+### 3.6 Refining the ER Design for the COMPANY Database
+// Nothing
+
+### 3.7 ER Diagrams, Naming Conventions, and Design Issues
+
+####<em>Alternative</em> ER notation for structural constraints on relationships
+> This notation involves associating a pair of integer numbers (min, max) with
+> each participation of an entity type E in a relationship type R, where 
+> 
+>     0 <= min<= max and max = 1
+> 
+> The numbers mean that for each entity e in E, e must
+> participate in at least min and at most max relationship instances in R at any
+> point in time. In this method, min = 0 implies partial participation, whereas
+> min > 0 implies total participation.
+
+Hint: I prefer the alternative notation
+
+> Usually, one uses either the cardinality ratio/single-line/double-line
+> notation or the (min, max) notation. The (min, max) notation is more precise,
+> and we can use it to specify structural constraints for relationship types of
+> any degree. However, it is not sufficient for specifying some key constraints
+> on higher-degree relation-ships, as discussed in Section 3.9
+
+As discussed in class
+
+### 3.8 Example of Other Notation: UML Class Diagrams
+// skipped for now
