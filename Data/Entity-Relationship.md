@@ -1,7 +1,9 @@
 Fundamentals of Database Systems
 =====
+
 Chapter 3
-=====
+=
+
 #### Definitions
 - database application
     - a particular database and the associated programs that implement the
@@ -190,6 +192,9 @@ relationship type.
 > min > 0 implies total participation.
 
 Hint: I prefer the alternative notation
+
+    cout << "Here is code" << endl;
+    <html><i>test</i>
 
 > Usually, one uses either the cardinality ratio/single-line/double-line
 > notation or the (min, max) notation. The (min, max) notation is more precise,
