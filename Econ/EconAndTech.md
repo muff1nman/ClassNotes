@@ -304,10 +304,10 @@ patents
 
 spillovers: the firm cannot charge all the beneficiaries of its innovation
 
-Indivisiblities, uncertainty, and captial markets
+Indivisiblities, uncertainty, and capital markets
 -----
 
-eg. google 
+eg. Google 
 - search engine into cars, maps, phone, Google glass, TV, 
 
 Financiers
@@ -365,5 +365,96 @@ Makes it hard for smaller firms to compete with the larger firms
 People across the world can invent things at the same time -> hard for courts to
 manage who invent first
 
-Encouarges firms to patent trade secrets otherwise someone else might file
+Encourages firms to patent trade secrets otherwise someone else might file
 first.
+
+23 - 01 - 2013
+======
+
+Trademarks
+---
+
+Trade Secrets
+-----
+sometimes when selling a business, you agree to a non-compete agreement so that
+you can't steal customers.
+
+Trade Secret and the Law
+----
+
+Trade Secret vs Patent
+----
+
+Limitations of Trade Secret Law
+-----
+
+New slides
+====
+
+Copyright Law
+-----
+
+Patent and Copyright
+----
+
+Fair-Use
+-----
+
+Copyright term
+----
+Disney
+
+PV perpetuity = 1 / r
+limited copyright PV = (1-e^(-rt))/r
+*See slides*
+
+Increasing the copyright term does not have a significant effect on the creation
+of new works.
+
+Drawbacks to long copyright term
+----
+- transaction costs increase
+    - find the copyright holder
+    - raises cost to produce new codes
+    - longer terms lead to rent-seeking (copyright trolls)
+
+- intellectual public domain is a source of vital inputs into intellectual
+  property
+
+- Asymmetry between the owners and users
+    - owners have a large stake to extend rights
+    - users  have a small stake
+    - owners lobby for copyright laws to be extended
+
+Digital Media
+-----
+
+Since there is minimal price for a product, should focus on economies of scale.
+
+28 - 01 - 2013
+======
+*Note no slides for this week.  See the reading on blackboard*
+
+Significance of the Entrepreneur
+----
+Entrepreneur = Independent Innovator
+- risky
+- extreme? 
+- thinks of ideas that are 'crazy'
+
+Incentives
+-----
+They make it less risky to innovate!
+
+Entrepreneurial Rent-Seeking
+-----
+
+History
+-----
+Rome -> Violence
+Medevial China -> corruption
+Servile England -> taxation
+
+Barriers to Classical innovation
+-----
+- people stay in their class brackets
