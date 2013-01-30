@@ -468,4 +468,83 @@ DML (Data Manipulation Language)
 >    relational data base management system, that system must be able to manage
 >    data bases entirely through its relational capabilities.
 
+4 Data Manipulation
+===
 
+#### Definitions
+- queries
+    - commands that extract information from a database
+    - relational algebra queries are task oriented, steps are specified
+        - the output of which is a table
+    - SQL algebra is result centered. specifies desired information but is vague
+      on how to get it. 
+
+- 
+
+4.1 Queries
+--
+queries have three important features
+- Simplicity
+    - if tables are not good enough, do a query
+
+- Efficiency
+    - caching of queries
+
+- Power
+    - the output can be used as the input of another query
+
+Every SQL query has a corresponding relational algebra query which provides two
+benefits
+- relational algebra is easier to understand than SQL
+- relational algebra is easier to execute than SQL
+
+4.2 Relational Algebra
+--
+
+Single table input operators:
+- select
+    - output table has the same columns as its input table, but with some rows
+      removed
+
+- project
+    - output table has the same rows as its input table but with some columns
+      removed
+
+- sort
+    - output table is the same as the input table except that the rows are
+      displayed in a different order
+
+- rename
+    - output table is the same as the input table, except that one column has a
+      different name
+
+- extend
+    - output table is the same as the input table except that there is an
+      additional column containing a computed value
+
+- groupby
+    - output table has one row for every group of input records
+
+Two table input operators
+- product
+    - output table consists of all possible combinations of records from its two
+      input tables
+
+- join
+    - used to connect two tables together meaningfully.  It is equivalent to a
+      selection of a product
+
+- semijoin
+    - output table consists of the records from the first input table that match
+      some record in the second input table.
+
+- antijoin
+    - output table consists of the records from the first input table that do
+      not match records in the second input table.
+
+- union
+    - output table consists of the records from each of its two input tables
+
+- outer join
+    - output table contains all the records of the join, together with the
+      non-matching records padded with nulls.
