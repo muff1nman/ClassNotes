@@ -452,9 +452,60 @@ Entrepreneurial Rent-Seeking
 History
 -----
 Rome -> Violence
-Medevial China -> corruption
+Medieval China -> corruption
 Servile England -> taxation
 
 Barriers to Classical innovation
 -----
 - people stay in their class brackets
+
+30 - 01 - 2013
+====
+
+Ancient Rome
+-----
+If you were seen as a trader, you were not seen in good light.
+
+Ancient China
+----
+
+Monasteries in the Middle Ages
+---
+
+Institutional change in the Middle Ages
+-----
+
+Servile Europe
+----
+
+What Changed?
+----
+
+Growth and Knowledge
+----
+
+The Epistemic Base
+----
+There is a basic level of understanding requirement before you can move on
+
+
+The first industrial revolution
+---
+
+
+Side note
+-----
+water was poor up to the industrial rev.  So they drank wine instead.  Coffee
+started to appear in england.  So they went from having a depressant to
+stimulant... promoting growth.
+
+
+The Second industrial Revolution
+---
+
+Asprin (trial and error) vs Electricity (science)
+
+A third revolution?
+---
+
+
