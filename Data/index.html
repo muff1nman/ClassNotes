@@ -534,3 +534,84 @@ and have no place in a clean formal system like the relational model.</p>
 </blockquote>
 
 <p></blockquote></p>
+
+<h2>Normalization</h2>
+
+<p>The concern of organization of attributes within relations so as to minimize the
+duplication of data.</p>
+
+<h3>Functional Dependencies</h3>
+
+<p>When the values of one column(s) correspond to the values in another column.</p>
+
+<p>Referencing Table 3-2
+Season is functionally dependent on year and vice versa.</p>
+
+<h3>Normal Forms</h3>
+
+<h4>First Normal Form (1NF)</h4>
+
+<p>All attributes in a relation use domains that are made up of atomic values.</p>
+
+<h4>Second Normal Form (2NF)</h4>
+
+<p>Requires the relation to be in 1NF and that all non-key attributes be
+functionally dependent upon <em>all</em> attributes of the primary key. </p>
+
+<h4>Third Normal Form (3NF)</h4>
+
+<p>Roots out what is called transitive dependencies.</p>
+
+<p>Transitive dependency
+- a chain of tow or more functional dependencies spanning two or more attribute
+  groups (two or more correlations).</p>
+
+<p>See Table 3-5 for example.</p>
+
+<h2>The Manipulative Component</h2>
+
+<p>relational algebra - procedural language
+relational calculus - declarative language</p>
+
+<h3>Relational Query Language</h3>
+
+<p>Any query language that can express all of the fundamental operations set forth
+in relational algebra and/or calculus is said to be <em>relationally complete</em>.</p>
+
+<blockquote>
+  <ol>
+<li>Comprehensive Data Sublanguage Rule. A relational system may support
+several languages and various modes of terminal use (for example, the
+fill-in-the-blanks mode). However, there must be at least one language
+whose statements are expressible, per some well-defined syntax, as
+character strings and that is comprehensive in supporting all the following
+items:</li>
+</ol>
+
+<p>Data Definition, View Definition, Data Manipulation (Interactive and by
+program), Integrity Constraints, and Authorization, Transaction boundaries
+(begin, commit, and rollback).</p>
+
+<ol>
+<li>High Level Insert, Update, and Delete. The system must support set at a
+time insert, update, and delete operators.</li>
+</ol>
+</blockquote>
+
+<h4>The Advent of SQL</h4>
+
+<p>DDL (Data Definition Language)
+- The part of the language that is dedicated to working with the structural
+  aspect of the model, specifically to creating, altering, and destroying
+  tables.  Also contains the integrity aspect (specifying keys and constraints)</p>
+
+<p>DML (Data Manipulation Language)
+- The operational aspect that includes both the relational calculus and algebra.</p>
+
+<blockquote>
+  <ol>
+<li>Rule Zero. For any system that is advertised as, or claimed to be, a
+relational data base management system, that system must be able to manage
+data bases entirely through its relational capabilities.</li>
+</ol>
+</blockquote>
