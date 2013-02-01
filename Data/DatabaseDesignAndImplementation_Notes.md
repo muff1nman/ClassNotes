@@ -548,3 +548,205 @@ Two table input operators
 - outer join
     - output table contains all the records of the join, together with the
       non-matching records padded with nulls.
+
+4.3 SQL Queries
+--
+
+#### definitions
+
+### Basic SQL
+
+##### Numeric Types
+
+- precision
+    - the number of significant figures
+
+- scale
+    - the number of digits to the right of the decimal point.
+
+A simple select and from statement 
+
+    select STUDENT.SName, STUDENT.GradYear from STUDENT
+
+The range variable which defaults to the table name for the prefix to column
+names can be specified as shown next
+
+    select s.SName, s.GradYear from STUDENT s
+
+Prefixes are optional if there is no ambiguity.
+
+\* operator lets you specify all table columns.
+
+exact vs approximate
+approximate has roundoff errors
+
+##### Types
+- Numeric(x,y)
+    - exact
+    - x precision
+    - y scale
+
+- INTEGER 
+    - exact
+    - 9 precision
+    - 0 scale
+
+- SMALLINT
+    -exact
+    - 4 precision
+    - 0 scale
+
+- FLOAT(x)
+    - approximate
+    - x bits of precision
+   
+- FLOAT
+    - approximate
+    - 24 bits precision
+
+- DOUBLE PRECISION
+    - approximate
+    - 53 bits precision
+
+CAST allows transforming one numeric to another
+
+    CAST( 3.14 as INT )  -- returns 3
+    CAST( 5.67 as NUMERIC(4,1))  -- returns 5.6
+    CAST(12345.67 as NUMERIC(4,1))  -- generates an error
+
+
+##### String Types
+
+- VARCHAR(x)
+    - specifies a variable length string up to x characters
+
+- CHAR(x)
+    - specifies a string of exactly x characters
+
+Use single quotes.
+
+###### Functions
+- lower
+    - returns string to lower case
+- trim
+    - removes leading and trailing spaces
+- char_length
+    - number of characters in string
+- substring
+    - ex:
+        
+        substring('Einstien' from 2 for 3)  -- returns 'ins'
+
+
+- current_user
+    - returns current logged in user
+- ||
+    - catenate two strings
+- like
+
+###### LIKE
+% is the same as .* in regex
+_ is the same as . in regex
+
+##### Date Types
+
+    DATE 'yyyy-mm-dd'
+
+    INTERVAL '5' DAY
+
+### The Select Clause
+besides doing a project, you can do an extend
+
+    select s.*, s.GradYear-1863 AS GradClass, 'BC' AS College from STUDENT s
+
+    select q.*, case when q.AlumYrs>0 then 'alum'
+                     else 'in school'
+                end AS GradStatus
+    from Q69 q
+
+    
+    select q.*, if (q.AlumYrs>0, 'alum', 'in school') AS GradStatus
+    from Q69 q
+
+### The From clause
+the product operator is used when the from clause receives multiple tables.
+
+A join can also be specified
+
+    select s.SName, d.DName from STUDENT s join DEPT d on s.MajorId=d.DId
+
+An outer join is specified with the key word 'full join' instead of 'join'
+
+### The Where clause
+Basically performs a relational algebraic selection.
+
+    select s.SName from STUDENT s where (s.GradYear=2005) or (s.GradYear=2006)
+
+Can also specify a join
+
+    select s.Sname, k.Prof from STUDENT s, ENROLL e, SECTION k where
+    s.SId=e.StudentId and e.SectionId=k.SectId
+    --"The names of students and their professors"
+
+Can mix predicates for joins with predicates for relational select.
+
+### The Group By Clause
+
+Remember the two componets are the grouping fields and the set of aggregation
+functions.  The grouping fields are in the group by clause and the aggregation
+functions are in the select clause.
+
+    select s.MajorId, min(s.GradYear), max(x.GradYear) from STUDENT s group by
+    s.MajorId
+    -- Results in a single row for each MajorId.
+
+when group by is omitted, the entire input table is a group and the result will
+be a single row
+
+It gets evaluated after the where clause but before the select clause
+
+    Q83 = select e.SectionId, count(e.EId) as NumAs from ENROLL e where e.Grade='A'
+          group by e.SectionId
+
+    Q84 = select max( q.NumAx) as MaxAs from Q83 q
+
+    Q85 = select Q83.SectionId from Q83, Q84 where Q83.NumAs=Q84.MaxAs
+
+    -- the sections having the most A's
+
+
+The 'distinct' keyword can be inserted after a select to remove duplicates in
+the same way a group by would
+
+Another usage for 'distinct' is in the aggregation functions such as:
+
+    select count( distinct s.Major ) from STUDENT s
+
+### The Having Clause
+The having clause is computed after the group by operation allowing use to use
+predicates on computed groupings
+
+    select k.Prof, count(k.SectId) as HowMany from SECTION k where
+    k.YearOFfered=2008 group by k.Prof having count(k.SectId) > 4
+    -- professors who taught more than four sections in 2008
+
+### Nested Queries
+Used to express semijoins and antijoins.
+
+    semijion(T1, T2, A=B) = select * from T1 where T1.A in 
+        (select T2.B from T2 )
+
+    antijion(T1, T2, A=B) = select * from T1 where T1.A not in 
+        ( select T2.B from T2 )
+
+### The Union Keyword
+has its own keywords and joins tables
+
+### The Order By Clause
+Defaults to Ascending order so use the keyword 'DESC' after the field to specify
+descending.
+
+Performed after the select clause and everything else.
+
+4.4 SQL Updates
+--
