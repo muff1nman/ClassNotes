@@ -750,3 +750,16 @@ Performed after the select clause and everything else.
 
 4.4 SQL Updates
 --
+
+    delete from SECTION where SEctId not in (select e.SectionId from ENROLL e)
+    -- deleting sections with no enrollments
+
+    update STUDENT set MajorId=10, GradYear=GradYear+1
+    where MajorId=20
+
+4.5 Views
+--
+
+    create view Q65 as select s.SName, s.GradYEar from STUDENT s
+
+

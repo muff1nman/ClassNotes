@@ -615,3 +615,399 @@ relational data base management system, that system must be able to manage
 data bases entirely through its relational capabilities.</li>
 </ol>
 </blockquote>
+
+<h1>4 Data Manipulation</h1>
+
+<h4>Definitions</h4>
+
+<ul>
+<li><p>queries</p>
+
+<ul>
+<li>commands that extract information from a database</li>
+<li>relational algebra queries are task oriented, steps are specified
+<ul>
+<li>the output of which is a table</li>
+</ul></li>
+<li>SQL algebra is result centered. specifies desired information but is vague
+on how to get it. </li>
+</ul></li>
+
+- 
+</ul>
+
+<h2>4.1 Queries</h2>
+
+<p>queries have three important features
+- Simplicity
+    - if tables are not good enough, do a query</p>
+
+<ul>
+<li><p>Efficiency</p>
+
+<ul>
+<li>caching of queries</li>
+</ul></li>
+<li><p>Power</p>
+
+<ul>
+<li>the output can be used as the input of another query</li>
+</ul></li>
+</ul>
+
+<p>Every SQL query has a corresponding relational algebra query which provides two
+benefits
+- relational algebra is easier to understand than SQL
+- relational algebra is easier to execute than SQL</p>
+
+<h2>4.2 Relational Algebra</h2>
+
+<p>Single table input operators:
+- select
+    - output table has the same columns as its input table, but with some rows
+      removed</p>
+
+<ul>
+<li><p>project</p>
+
+<ul>
+<li>output table has the same rows as its input table but with some columns
+removed</li>
+</ul></li>
+<li><p>sort</p>
+
+<ul>
+<li>output table is the same as the input table except that the rows are
+displayed in a different order</li>
+</ul></li>
+<li><p>rename</p>
+
+<ul>
+<li>output table is the same as the input table, except that one column has a
+different name</li>
+</ul></li>
+<li><p>extend</p>
+
+<ul>
+<li>output table is the same as the input table except that there is an
+additional column containing a computed value</li>
+</ul></li>
+<li><p>groupby</p>
+
+<ul>
+<li>output table has one row for every group of input records</li>
+</ul></li>
+</ul>
+
+<p>Two table input operators
+- product
+    - output table consists of all possible combinations of records from its two
+      input tables</p>
+
+<ul>
+<li><p>join</p>
+
+<ul>
+<li>used to connect two tables together meaningfully.  It is equivalent to a
+selection of a product</li>
+</ul></li>
+<li><p>semijoin</p>
+
+<ul>
+<li>output table consists of the records from the first input table that match
+some record in the second input table.</li>
+</ul></li>
+<li><p>antijoin</p>
+
+<ul>
+<li>output table consists of the records from the first input table that do
+not match records in the second input table.</li>
+</ul></li>
+<li><p>union</p>
+
+<ul>
+<li>output table consists of the records from each of its two input tables</li>
+</ul></li>
+<li><p>outer join</p>
+
+<ul>
+<li>output table contains all the records of the join, together with the
+non-matching records padded with nulls.</li>
+</ul></li>
+</ul>
+
+<h2>4.3 SQL Queries</h2>
+
+<h4>definitions</h4>
+
+<h3>Basic SQL</h3>
+
+<h5>Numeric Types</h5>
+
+<ul>
+<li><p>precision</p>
+
+<ul>
+<li>the number of significant figures</li>
+</ul></li>
+<li><p>scale</p>
+
+<ul>
+<li>the number of digits to the right of the decimal point.</li>
+</ul></li>
+</ul>
+
+<p>A simple select and from statement </p>
+
+<pre><code>select STUDENT.SName, STUDENT.GradYear from STUDENT
+</code></pre>
+
+<p>The range variable which defaults to the table name for the prefix to column
+names can be specified as shown next</p>
+
+<pre><code>select s.SName, s.GradYear from STUDENT s
+</code></pre>
+
+<p>Prefixes are optional if there is no ambiguity.</p>
+
+<p>* operator lets you specify all table columns.</p>
+
+<p>exact vs approximate
+approximate has roundoff errors</p>
+
+<h5>Types</h5>
+
+<ul>
+<li><p>Numeric(x,y)</p>
+
+<ul>
+<li>exact</li>
+<li>x precision</li>
+<li>y scale</li>
+</ul></li>
+<li><p>INTEGER </p>
+
+<ul>
+<li>exact</li>
+<li>9 precision</li>
+<li>0 scale</li>
+</ul></li>
+<li><p>SMALLINT
+-exact</p>
+
+<ul>
+<li>4 precision</li>
+<li>0 scale</li>
+</ul></li>
+<li><p>FLOAT(x)</p>
+
+<ul>
+<li>approximate</li>
+<li>x bits of precision</li>
+</ul></li>
+<li><p>FLOAT</p>
+
+<ul>
+<li>approximate</li>
+<li>24 bits precision</li>
+</ul></li>
+<li><p>DOUBLE PRECISION</p>
+
+<ul>
+<li>approximate</li>
+<li>53 bits precision</li>
+</ul></li>
+</ul>
+
+<p>CAST allows transforming one numeric to another</p>
+
+<pre><code>CAST( 3.14 as INT )  -- returns 3
+CAST( 5.67 as NUMERIC(4,1))  -- returns 5.6
+CAST(12345.67 as NUMERIC(4,1))  -- generates an error
+</code></pre>
+
+<h5>String Types</h5>
+
+<ul>
+<li><p>VARCHAR(x)</p>
+
+<ul>
+<li>specifies a variable length string up to x characters</li>
+</ul></li>
+<li><p>CHAR(x)</p>
+
+<ul>
+<li>specifies a string of exactly x characters</li>
+</ul></li>
+</ul>
+
+<p>Use single quotes.</p>
+
+<h6>Functions</h6>
+
+<ul>
+<li>lower
+<ul>
+<li>returns string to lower case</li>
+</ul></li>
+<li>trim
+<ul>
+<li>removes leading and trailing spaces</li>
+</ul></li>
+<li>char_length
+<ul>
+<li>number of characters in string</li>
+</ul></li>
+<li><p>substring</p>
+
+<ul>
+<li><p>ex:</p>
+
+<p>substring('Einstien' from 2 for 3)  -- returns 'ins'</p></li>
+</ul></li>
+<li><p>current_user</p>
+
+<ul>
+<li>returns current logged in user</li>
+</ul></li>
+<li>||
+<ul>
+<li>catenate two strings</li>
+</ul></li>
+<li>like</li>
+</ul>
+
+<h6>LIKE</h6>
+
+<p>% is the same as .* in regex
+_ is the same as . in regex</p>
+
+<h5>Date Types</h5>
+
+<pre><code>DATE 'yyyy-mm-dd'
+
+INTERVAL '5' DAY
+</code></pre>
+
+<h3>The Select Clause</h3>
+
+<p>besides doing a project, you can do an extend</p>
+
+<pre><code>select s.*, s.GradYear-1863 AS GradClass, 'BC' AS College from STUDENT s
+
+select q.*, case when q.AlumYrs&gt;0 then 'alum'
+                 else 'in school'
+            end AS GradStatus
+from Q69 q
+
+
+select q.*, if (q.AlumYrs&gt;0, 'alum', 'in school') AS GradStatus
+from Q69 q
+</code></pre>
+
+<h3>The From clause</h3>
+
+<p>the product operator is used when the from clause receives multiple tables.</p>
+
+<p>A join can also be specified</p>
+
+<pre><code>select s.SName, d.DName from STUDENT s join DEPT d on s.MajorId=d.DId
+</code></pre>
+
+<p>An outer join is specified with the key word 'full join' instead of 'join'</p>
+
+<h3>The Where clause</h3>
+
+<p>Basically performs a relational algebraic selection.</p>
+
+<pre><code>select s.SName from STUDENT s where (s.GradYear=2005) or (s.GradYear=2006)
+</code></pre>
+
+<p>Can also specify a join</p>
+
+<pre><code>select s.Sname, k.Prof from STUDENT s, ENROLL e, SECTION k where
+s.SId=e.StudentId and e.SectionId=k.SectId
+--"The names of students and their professors"
+</code></pre>
+
+<p>Can mix predicates for joins with predicates for relational select.</p>
+
+<h3>The Group By Clause</h3>
+
+<p>Remember the two componets are the grouping fields and the set of aggregation
+functions.  The grouping fields are in the group by clause and the aggregation
+functions are in the select clause.</p>
+
+<pre><code>select s.MajorId, min(s.GradYear), max(x.GradYear) from STUDENT s group by
+s.MajorId
+-- Results in a single row for each MajorId.
+</code></pre>
+
+<p>when group by is omitted, the entire input table is a group and the result will
+be a single row</p>
+
+<p>It gets evaluated after the where clause but before the select clause</p>
+
+<pre><code>Q83 = select e.SectionId, count(e.EId) as NumAs from ENROLL e where e.Grade='A'
+      group by e.SectionId
+
+Q84 = select max( q.NumAx) as MaxAs from Q83 q
+
+Q85 = select Q83.SectionId from Q83, Q84 where Q83.NumAs=Q84.MaxAs
+
+-- the sections having the most A's
+</code></pre>
+
+<p>The 'distinct' keyword can be inserted after a select to remove duplicates in
+the same way a group by would</p>
+
+<p>Another usage for 'distinct' is in the aggregation functions such as:</p>
+
+<pre><code>select count( distinct s.Major ) from STUDENT s
+</code></pre>
+
+<h3>The Having Clause</h3>
+
+<p>The having clause is computed after the group by operation allowing use to use
+predicates on computed groupings</p>
+
+<pre><code>select k.Prof, count(k.SectId) as HowMany from SECTION k where
+k.YearOFfered=2008 group by k.Prof having count(k.SectId) &gt; 4
+-- professors who taught more than four sections in 2008
+</code></pre>
+
+<h3>Nested Queries</h3>
+
+<p>Used to express semijoins and antijoins.</p>
+
+<pre><code>semijion(T1, T2, A=B) = select * from T1 where T1.A in 
+    (select T2.B from T2 )
+
+antijion(T1, T2, A=B) = select * from T1 where T1.A not in 
+    ( select T2.B from T2 )
+</code></pre>
+
+<h3>The Union Keyword</h3>
+
+<p>has its own keywords and joins tables</p>
+
+<h3>The Order By Clause</h3>
+
+<p>Defaults to Ascending order so use the keyword 'DESC' after the field to specify
+descending.</p>
+
+<p>Performed after the select clause and everything else.</p>
+
+<h2>4.4 SQL Updates</h2>
+
+<pre><code>delete from SECTION where SEctId not in (select e.SectionId from ENROLL e)
+-- deleting sections with no enrollments
+
+update STUDENT set MajorId=10, GradYear=GradYear+1
+where MajorId=20
+</code></pre>
+
+<h2>4.5 Views</h2>
+
+<pre><code>create view Q65 as select s.SName, s.GradYEar from STUDENT s
+</code></pre>
