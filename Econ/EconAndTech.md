@@ -590,5 +590,75 @@ The Creative Class
 
 Opposition to Creative Destruction
 --
+Governments can promote or scale back creative destruction and innovation
+
+Additional points
 1. Discourages people from doing the risky and creative thing
 2. Good products existing may get replaced. 
+3. Hard to know how long its gonna take to pay back.
+4. Hard to do, abstract. 
+5. Countries cannot really catch up
+
+
+06 - 02 - 2013
+====
+
+The Miracle of Capitalism
+---
+People were still working in agriculture so it took a while for the first
+industrial revolution to spill over.
+
+Steel (mass production) marked the beginning of the 2nd industrial revolution.
+
+Population growth helped supply growth.  Also was fueled by agriculture,
+medicine, etc.
+
+Why has capitalism been relatively...
+---
+1. 
+2. Engineers are expected to improve technologies
+3. 
+4. Property rights - Magna Carta
+5. Market
+
+The Substantial but _Imperfect_ growth Efficiency of Capitalism
+---
+Supply and demand leads to efficiency
+
+Not efficient in the growth process
+
+Less investment because of spill overs. -> less innovation
+
+spillovers cause additional growth (new technology)
+
+Incorporating Growth Analysis..
+---
+- Hedging
+    - Less risk, spread risk out over multiple innovations/inventions
+    - Less profit
+
+The Growth Promoting Attributes of Capitalism
+---
+Invention happened in many other types of economies
+But Capitalism helps the transition from invention to innovation
+
+Capitalist Growth
+----
+
+Routine vs Independent Innovators
+---
+
+Inefficiency of Capitalist Growth
+---
+
+Inefficiency of Capitalist Growth
+---
+1. 
+2. Older assets dry up
+3. 
+4. Stunts growth
+5. 
+6. 
+
+Voluntary dissemination
+
