@@ -662,3 +662,23 @@ Inefficiency of Capitalist Growth
 
 Voluntary dissemination
 
+11 - 02 - 2013
+======
+
+Oligopoly and R&D
+----
+Increasing returns of scale lead to more efficient output as they get larger.
+
+e.g. Walmart bullies the suppliers by telling them what price they would like.
+
+Oligopolies are hard to model, so economists tend to focus on perfect
+competition.
+
+Innovation is Risky
+-----
+- diversifying
+    - different markets, products and inventions
+- Collaboration
+    - share efforts for basic research
+
+
