@@ -548,3 +548,20 @@ Two table input operators
 - outer join
     - output table contains all the records of the join, together with the
       non-matching records padded with nulls.
+
+5 Integrity and Security
+=====
+
+5.1 The Need for Data Integrity and Security
+----
+- integrity
+    - the database should not become incorrect or inconsistent due to an
+      inadvertent update. 
+- security
+    - the data should not be accessible to unauthorized people
+
+5.2 Assertions
+----
+
+
+
