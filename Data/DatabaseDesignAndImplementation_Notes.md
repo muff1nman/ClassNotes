@@ -775,3 +775,103 @@ Performed after the select clause and everything else.
 
 5.2 Assertions
 ----
+
+- assertion
+    - predicate that must always be satisfied by the database
+
+students can take a course at most once
+
+    create assertion NoTakeTwice check (not exists
+            select e.StudentId, k.courseId
+            from SECTION k, ENCROLL e
+            where k.SectId=e.SectionId
+            group by e.StudentId, k.CourseId
+            having count(k.SectId)>1)
+
+
+5.3 Triggers
+----
+- trigger
+    - specifies an action that the database system should perform whenever a
+      particular update statement is executed.
+
+For each row: for each row modified
+For each statement: once
+if the when clause is omitted, it will be triggered for every row
+If multiple update statements, use BEGIN and END
+
+Example:
+
+    create trigger LogGradeChange
+        after update of Grade in ENROLL
+        for each row
+        referencing old row as oldrow, new row as newrow
+        when oldrow.Grade <> newrow.Grade
+            insert into GRADE_LOG(UserName, DateChanged, EId,
+                                    OldGrade, NewGrade)
+            values(current_user, current_date, newrow.EId,
+                                    oldrow.Grade, newrow.Grade)
+
+Three parts:
+- An event
+    - the update statement that initiates the activity
+- A condition
+    - the predicate that determines whether the trigger will fire
+- An action
+    - what happens if the trigger does fire
+
+Progression of events:
+
+    modification -> constraint -> trigger -> finalize
+
+Deferrable initially deferred changes this so that the trigger is before the
+constraint.  This can be dangerous because it delays the warning of errors.
+
+5.4 Authorization
+-----
+- privileges
+    - the creator of a table grants privileges on it to other users
+    - types:
+        - select
+        - insert
+        - delete 
+        - update
+    - grant statement assigns privileges
+        
+        grant insert on SECTION to registrar
+
+    - keyword 'public' is for all users
+
+### Users and Roles
+
+- user
+    - the person who is logged into the database
+- role
+    - a category of users
+
+### Column Privileges
+
+    grant select(StudentId,Grade) on ENROLL to dean, professor
+
+### Statement Authorization
+
+> A user is authorized to execute a statement if that user has all of the
+> privileges required by that statement
+
+- select:
+    - select for each field mentioned in query
+- insert / update
+    - requires an insert / update for each to be modified and select for each
+      field in the where clause
+- delete
+    - requires a delete for the table and select for each in the where clause
+
+constraints can be created by those that have the following:
+
+    grant references on STUDENT to dean
+
+'with grant option' appended to grant allows recursive granting for privilege
+
+5.5 Mandatory Access Control
+----
+
