@@ -683,3 +683,28 @@ Innovation is Risky
 
 Youtube:
 Innovation Kitchen Nike
+
+13 - 02 - 2013
+======
+
+Risk Aversion
+-----
+Executive making the decision can risk making lots of money for losing their
+job.
+
+Oligopolistic Innovation
+-----
+
+Pressure to Routinize Innovation
+-----
+
+Corporate approach to routinization
+---
+More money -> more risky bets
+More money -> larger -> slow response to new technologies
+
+Relevance of Sunk Costs
+-----
+Creates a barrier to entry
+
+
