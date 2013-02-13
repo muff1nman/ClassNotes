@@ -1,0 +1,3 @@
+What is the difference between an ER model and an ERD.
+The ER model is a way of thinking of enties and models to resemble the world
+around us where as an ERD is a diagram or actuall representation of an ER model.

@@ -304,7 +304,7 @@ patents
 
 spillovers: the firm cannot charge all the beneficiaries of its innovation
 
-Indivisiblities, uncertainty, and capital markets
+Indivisibilities, uncertainty, and capital markets
 -----
 
 eg. Google 
@@ -503,9 +503,183 @@ stimulant... promoting growth.
 The Second industrial Revolution
 ---
 
-Asprin (trial and error) vs Electricity (science)
+Aspirin (trial and error) vs Electricity (science)
 
 A third revolution?
 ---
+Very large pension funds were used to fund businesses past the startup stage.
+
+Its hard to tell if the IT "revolution" is a true revolution and it will take
+time to tell as we are living in it right now
+
+04 - 02 - 2013
+====
+
+Communism
+---
+#####Karl Marx
+Not from Russia, from Germany.
+Capitalism feeds off of building stuff like in wars. 
+Lenin got some ideas from Karl Marx.
+
+His ideas were based off of industrialized countries such as UK and USA, not
+Agricultural countries like China or Russia.
+
+#####Mao Zedong
+
+Marxian Economics
+----
+
+Schumpeter says that Marxian Econ is appealing in that he has all the
+answers.
+
+Marx is the first economist who says capitalism is great for producing stuff...
+Growth!  But he said it will end with collapse.
+
+Joseph Schumpeter
+-----
+He started the idea that creative destruction is the old companies being
+replaced with the new.
+
+The "Problem" of Monopoly
+---
+
+What's the Problem?
+----
+Study of Economics is all over the place
+we need dynamic models
+
+Dynamic vs Static Optimization
+---
+Applies to our Economy
+
+Capitalism's Evolutionary Character
+-----
+Capitalism is constantly changing, not static
+
+The Fundamental Impulse
+----
+
+Creative Destruction  (CD)
+----
+Not a policy but a way of looking at the market, the world.
+
+CD and Economics
+---
+Don't be so concerned about monopolies, be more concerned with the forces that
+lead to the creation and destruction of firms.
+
+Larry the Liquidator
+--
+Creative Destruction
+
+Stock price doesn't necessarily reflect the value of a firm.
+
+one of the big problems with CD is people losing jobs and not being able to move
+on.
+
+The Discipline of CD
+---
+
+Economies and Economics
+----
+A way of *thinking* about the market.
+
+The Creative Class
+---
+
+Opposition to Creative Destruction
+--
+Governments can promote or scale back creative destruction and innovation
+
+Additional points
+1. Discourages people from doing the risky and creative thing
+2. Good products existing may get replaced. 
+3. Hard to know how long its gonna take to pay back.
+4. Hard to do, abstract. 
+5. Countries cannot really catch up
 
 
+06 - 02 - 2013
+====
+
+The Miracle of Capitalism
+---
+People were still working in agriculture so it took a while for the first
+industrial revolution to spill over.
+
+Steel (mass production) marked the beginning of the 2nd industrial revolution.
+
+Population growth helped supply growth.  Also was fueled by agriculture,
+medicine, etc.
+
+Why has capitalism been relatively...
+---
+1. 
+2. Engineers are expected to improve technologies
+3. 
+4. Property rights - Magna Carta
+5. Market
+
+The Substantial but _Imperfect_ growth Efficiency of Capitalism
+---
+Supply and demand leads to efficiency
+
+Not efficient in the growth process
+
+Less investment because of spill overs. -> less innovation
+
+spillovers cause additional growth (new technology)
+
+Incorporating Growth Analysis..
+---
+- Hedging
+    - Less risk, spread risk out over multiple innovations/inventions
+    - Less profit
+
+The Growth Promoting Attributes of Capitalism
+---
+Invention happened in many other types of economies
+But Capitalism helps the transition from invention to innovation
+
+Capitalist Growth
+----
+
+Routine vs Independent Innovators
+---
+
+Inefficiency of Capitalist Growth
+---
+
+Inefficiency of Capitalist Growth
+---
+1. 
+2. Older assets dry up
+3. 
+4. Stunts growth
+5. 
+6. 
+
+Voluntary dissemination
+
+11 - 02 - 2013
+======
+
+Oligopoly and R&D
+----
+Increasing returns of scale lead to more efficient output as they get larger.
+
+e.g. Walmart bullies the suppliers by telling them what price they would like.
+
+Oligopolies are hard to model, so economists tend to focus on perfect
+competition.
+
+Innovation is Risky
+-----
+- diversifying
+    - different markets, products and inventions
+- Collaboration
+    - share efforts for basic research
+
+Youtube:
+Innovation Kitchen Nike
