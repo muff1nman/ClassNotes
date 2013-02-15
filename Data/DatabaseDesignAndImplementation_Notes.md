@@ -762,6 +762,7 @@ Performed after the select clause and everything else.
 
     create view Q65 as select s.SName, s.GradYEar from STUDENT s
 
+
 5 Integrity and Security
 =====
 
@@ -874,4 +875,46 @@ constraints can be created by those that have the following:
 
 5.5 Mandatory Access Control
 ----
+
+6 Improving Query Efficiency
+=====
+- materialized view
+    - a table that holds the output of a precomputed value
+- index
+    - a file that provides quick access to records when the value of a
+      particular field is known.
+
+6.1 The Virtues of Controlled Redundancy
+----
+
+Redundancy in the hands of the user is a bad thing, but in the hands of the
+database can lead to increased performance
+
+6.2 Materialized Views
+-----
+Two cases when a view is used with a query:
+- combine it into the query (not touched on in this chapter, see Chapter 19)
+- execute the view first and save it to a temporary table
+
+A materialized view is when that temporary table is kept around permanently by
+the database.  It is automatically updated whenever its underlying tables
+change.
+
+> A view is worth materializing when its benefits outweigh its maintenance
+> costs.
+
+De-normalization is when normalized tables are joined to minimize the cost of
+frequent joins
+
+    create materialized view STUDENT_ENR as .... sql select statment
+
+6.3 Indexing
+-----
+
+    create index MAJOR_IDX on STUDENT( MajorId );
+    create unqiue index SID_IDX on STUDENT( SId );
+
+create keyword tells the database to only search for the first matching value
+( since there should only be one )
+
 
