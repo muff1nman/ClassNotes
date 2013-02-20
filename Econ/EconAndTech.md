@@ -708,3 +708,61 @@ Relevance of Sunk Costs
 Creates a barrier to entry
 
 
+20 - 02 - 2013
+======
+
+Sunk Costs And Non-Zero Profits for Oligopolies
+---
+Oligopolies have high returns (~20%) because they have market power and because
+of the risk premium.
+
+When can profits still be greater than 0:
+//skip
+
+Strategic Counter-measures:
+- lower prices (I.E. Starbucks)
+- Lobby the government for laws in their benefit
+
+R&D Arms Races within Oligopoly
+----
+Short term decrease in R&D allows for high profits but in the long term you will go out of
+business
+
+If one business increases their R&D then other businesses will have to increase
+as well.
+
+It benefits society for businesses to increase R&D spending.
+
+Arms-Race Model Conclusions:
+----
+
+Technical Change and GDP
+---
+
+// New slides
+
+The importance of market power
+----
+
+The importance of absolute size
+-----
+One caveat is that large firms have higher overhead, bureaucracy and are slower
+
+Small firms can have market power. I.E. instagram had a valuable customer base
+that scared Facebook.
+
+Industrial Organization
+---
+
+Contestable Markets Model
+----
+
+Repeated sinking of funds is not a barrier to entry but rather a catalyst for
+kicking firms out that don't innovate
+
+3. is a crucial idea - firms are going to be as big as the marginal profits
+   provide - most efficient
+
+Higher Prices
+---
+
