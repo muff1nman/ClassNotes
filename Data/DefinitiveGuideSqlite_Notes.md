@@ -128,7 +128,128 @@ Using immediate and exclusive prevents deadlock for writes
 <strong>vacumm</strong> cleans out any unused space in the database by
 rebuilding the database file. There is also an auto_vacuum pragma
 
+#### Database Configuration
 
+##### The Connection Cache Size
+the cache size pragmas control how many database pages a session can hold in
+memory
 
-    
+    pragma cache_size;
+    pragma cache_size=10000;
 
+you can permanently set the cache size for all sessions using the
+default_cache_size pragma.
+
+#### Database Information
+pragma <em>keyword</em> 
+- database_list
+    - lists information about all attached databases
+- index_info
+    - lists information about the columns within an index
+    - takes an index name as argument
+- index_list
+    - lists information about the indexes in a table (takes a table name as an
+      arg)
+- table_info
+    - lists information about all the columns in a table
+    - takes a table name as an argument
+
+#### Synchronous Writes
+<strong>settings</strong>
+- full
+    - database pauses at critical moments to ensure that the data has been
+      written to disk
+- normal
+    - less often than full mode
+    - small possiblity that a database failure could happen if power is cut
+- off
+    - no pauses.
+
+#### Temporary Storage
+temp_store determines whether SQLite uses memory or disk for temporary storage
+- default (compile in default)
+- file (OS file)
+- memory (RAM)
+temp_store_directory determines which directory is used to place the file if
+that option is chosen
+
+#### Page Size, Encoding, and Autovacuum
+auto_vacuum occurs when a delete command happens
+
+#### Debugging
+integrity_check returns ok unless there are missing records, missing pages,
+malformed records or corrupted indexes
+
+#### The System Catalog
+- type
+    - the type of the object
+- name
+    - duh
+- rootpage
+    - the first B-tree page of the object in the database file
+
+sqlite_master table holds this information
+
+    select type, name, rootpage from sqlite_master;
+
+column <code>sql</code> holds the DML used to create the object.
+
+#### Viewing Query Plans
+<code>explain query plan</code> will show what SQLite will do
+
+5 Sqlite Design and Concepts
+-----
+
+### Transactions
+see Figure 5-3
+
+#### Read Transactions
+
+    begin
+    select * from episodes;
+    select * from episodes;
+    commit
+
+For the above:
+
+    UNLOCKED -> PENDING -> SHARED -> UNLOCKED
+
+For the above without begin / commit
+
+    UNLOCKED -> PENDING -> SHARED -> UNLOCKED -> PENDING -> SHARED -> UNLOCKED
+
+*NOTE* a writer could sneak in between the latter's selects and modify the
+database
+
+#### Write Transactions
+Before a transaction, the database copies the original database pages to the
+rollback journal so that the database can rollback in case something goes wrong
+
+<strong>page types</strong>
+- unmodified pages
+    - at most read by the database
+- modified pages
+    - database pages that contain modified records
+    - *stored in the page cache*
+- journal pages 
+    - original versions of the modified pages
+    - stored in the rollback journal
+
+Once the journal is ensured to be written to disk, the modified pages are copied
+into the database file. If the transaction is complete, the pager cleans up the
+journal, clears the page cache and proceeds to UNLOCKED
+
+Every autocommit modify goes through the following process flow
+
+    UNLOCKED -> PENDING -> SHARED -> RESERVED -> PENDING -> EXCLUSIVE -> UNLOCKED
+
+##### Sizing the Page Cache
+Use <code>sqlite3_analyzer</code> to see how many pages a transaction might
+affect
+
+##### Shard Cache Mode
+
+    pragma read_uncommitted;
+
+allows a single writer and multiple readers in EXCLUSIVE mode by sharing the
+cached.
