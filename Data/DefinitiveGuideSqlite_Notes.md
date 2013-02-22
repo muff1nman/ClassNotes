@@ -181,11 +181,11 @@ integrity_check returns ok unless there are missing records, missing pages,
 malformed records or corrupted indexes
 
 #### The System Catalog
-- type
+- <code>type</code>
     - the type of the object
-- name
+- <code>name</code>
     - duh
-- rootpage
+- <code>rootpage</code>
     - the first B-tree page of the object in the database file
 
 sqlite_master table holds this information
