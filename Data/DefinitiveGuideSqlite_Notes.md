@@ -1,8 +1,210 @@
 The Definitive Guide to Sqlite
 ======
 
+Chapter 2
+------
+### Alter table
+
+    alter table table { rename to name | add column column_def }
+
+### Relational Operations
+
+#### Fundamental operations
+- Restriction
+    - SQL where
+- Projection
+    - heading
+    - SQL select
+- Cartesian product
+- Union
+- Rename
+
+#### Additional Operations
+- Intersection
+- Natural Join
+- Assign
+
+#### Extended operations
+- Generalized projection
+- Left outer join
+- Right outer join
+- Full outer join
+
+#### Select and the operational pipeline
+
+    select [distinct] heading
+    from tables
+    where predicate
+    group by columns
+    having predicate
+    order by columns
+    limit count,offset;
+
+###### In order that they are applied
+
+    FROM tables
+    WHERE predicate
+    GROUP BY column
+    HAVING predicate
+    heading
+    DISTINCT
+    ORDER BY columns
+    LIMIT int, int; /* The command notation is short for LIMIT int, OFFSET int;*/
+
+### SQLite operators
+- ||
+    - string concatenation
+- <>
+    - not equal to
+- =
+    - equal to
+- AND
+- OR
+- IS
+- NOT
+- LIKE
+    - for matching strings against patterns
+    - % matches any sequence of zero or more characters
+    - _ matches any single character
+- GLOB
+
+#### List of aggregate functions
+- upper
+- length
+- abs
+- count
+- sum
+- avg
+- min
+- max
+
+#### Joins
+- Inner Join
+    - default
+    - (AND)
+- Cross Join
+    - product
+- Outer Join
+    - LEFT
+        - INNER UNION LEFT with NULL values
+    - RIGHT
+    - FULL
+        - INNER UNION LEFT/RIGHT
+
+##### syntax
+
+    select * from foods, food_types where foods.id=food_types.food_id;
+    select heading from left_table join_type right_table on join_condition;
+
+### Case statements
+
+    select name || case type_id
+            when 7 then ' is a drink'
+            when 8 then ' is a fruit'
+            when 9 then ' is junkfood'
+            when 13 then ' is seafood'
+            else null
+        end description
+    from foods
+    where description is not null
+    order by name
+    limit 10;
+
+### NULL
+> Most relational databases support the concept of “unknown” or “unknowable”
+> through a special placeholder called null, which is a placeholder for missing
+> information and is not a value per se. Rather, null is the absence of a value:
+> null is not nothing, null is not something, null is not true, null is not
+> false, null is not zero, null is not an empty string. Simply put, null is
+> resolutely what it is: null.
+
+
+
 Chapter 4
 ------
+
+### Inserting multiple row
+
+    insert into foods2 select * from foods;
+
+    create table foods3 as select * from foods;
+
+### Constraints
+#### Column
+- not null
+- unique
+- primary key
+- foreign key
+- check
+- collate
+
+### Unique
+\_rowid\_ accesses the unique id for each row
+
+### Default
+
+    default ... i.e. current_timestamp
+
+### Not null
+
+### check constraints
+
+    check predicate
+
+### Foreign Key Constraints
+
+    create table table_name
+    ( column_definition references foreign_table (column_name)
+    on {delete|update} integrity_action
+    [not] deferrable [initially {deferred|immediate}. ] ....);
+
+sdfs
+
+#### Integrity Actions
+- restrict
+- set null
+- set default
+- cascade
+- no action
+
+#### Collations
+They specify how the values are stored in the database
+##### options
+- binary default
+- nocase
+- reverse
+- RTRIM
+
+### Views
+
+create view <em>name</em> as <em>select_stmt</em>;
+
+drop view <em>name</em>
+
+### Indexes
+
+    create index [unique] <em>index_name</em> on <em>table_name</em> (<em>columns</em>)
+
+    drop index <em>index_name</em>;
+
+    create index foods_name_idx on foods (name collate nocase );
+
+### Triggers
+
+    create [temp|temporary] trigger <em>name</em>
+    [before|after] 
+    [insert|delete|update|update of <em>columns</em> on <em>table</em>
+    action
+
+#### Action
+
+    begin
+        insert into log values('updated foods: new name=' || newname);
+    end;
+
+Errors can also be raised:
+
+    raise(resolution, error_message);
 
 ### Transactions
 - <strong>atomic</strong>
