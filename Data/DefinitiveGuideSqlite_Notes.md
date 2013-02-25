@@ -318,8 +318,9 @@ Using immediate and exclusive prevents deadlock for writes
 
 #### Attaching Databases
 
-    attach [database] filename as database_name;
-    detach [database] database_name;
+    attach [database] filename as database_name;    detach [database] database_name;
+
+    select * from db2.foo;
 
 #### Cleaning Databases
 <strong>reindex</strong> is used to rebuild indexes. 
@@ -455,3 +456,118 @@ affect
 
 allows a single writer and multiple readers in EXCLUSIVE mode by sharing the
 cached.
+
+Chapter 5
+---------
+
+### Executing Prepared Queries
+#### Preparation
+The parser, tokenizer and code generator compile the sql statement in VDBE byte
+code.
+
+    sqlite3_prepare_v2()
+
+#### Execution
+Step through the byte code with the <code>sqlite3_step()</code> command
+For each call, it returns SQLITE_ROW or SQLITE_DONE.
+
+#### Finalization
+Release resources
+
+    sqlite3_finalize()
+
+### Flow
+See figure 5-2
+
+    db = open('foods.db');
+    stmt = db.prepare( 'select * from episodes' );A
+
+    while stmt.step() == SQLITE_ROW
+        print stmt.colum('name');
+    end
+
+    stmt.finalaize()
+
+### Parameters
+
+    insert into foods(id, name) values (?, ?);
+    insert into epixodes(id, name) values (:id, :name);
+
+    stmt.biind('id', '1' );
+    stmt.step()
+    stmt.reset() -- dellocates statments resources but leaves VDBE byte code
+
+### Operational Control
+Allows you to monitor, control or generally limit what can happen in a database
+
+#### Hook functions
+- <code>sqlite3_commit_hook</code>
+    - monitors transaction commits on a connection
+- <code>sqlite3_rollback_hook()</code>
+    - monitors rollbacks
+- <code>sqlite3_update_hook()</code>
+    - monitors changes to rows from insert, update, and delete
+- <code>wal_hook()</code>
+- <code>sqlite3_set_authorizer()</code>
+
+
+    def commit_hook(cnx)
+        log('Attemped commit on connection %x', cnx )
+        return -1 # causes rollback
+    end
+    db = open('foods.db')
+    db.set_commit_hook(rollback_hook, cnx)
+    db.exec("begin; delete from episodes; rollback")
+    db.close()
+
+### The Extension API
+
+#### User Defined Functions
+
+    void hello_newman( sqlite3_context* ctx, int nargs, sqlite3_value** values)
+    {
+        /* Create Newman's reply */
+        const char* msg = "Hello Jerry";
+
+        /* Set the return value. */
+        sqlite3_result_text( ctx, msg, strlen(msg), SQLITE_STATIC);
+    }
+
+    sqlite3_create_function( db, "hello_newman", 0, hello_newman);
+
+    /* 
+     * 1. db: database connection
+     * 2. the name of the function as it will appear in sql
+     * 3. How many args
+     * 4. function pointer for the actual function
+     */
+
+#### User Defined Aggregates
+1. Register the aggregate
+2. implement a step function to be called for each record in the result set
+3. implement a finalize function to be called after record processing - allows
+   you to compute the final return value and do any necessary cleanup
+
+
+    connection=apsw.Connection("foods.db")
+
+    def step( context, *args):
+        context['value'] += args[0]
+
+    def finalize( context ):
+        return context['value']
+
+    def pysum():
+        return ({'value' : 0}, step, finalize)
+
+    connection.createaggregatefunction("pysum", pysum)
+
+    c = connection.cursor()
+    print c.execute("select pysum(id) from foods").next()[0]
+
+#### Create User Defined Collations
+
+    sqlite3_create_collation()
+
+
+
