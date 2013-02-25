@@ -766,3 +766,51 @@ kicking firms out that don't innovate
 Higher Prices
 ---
 
+25 - 02 - 2013
+=========
+
+Review
+-----
+Contestable market      Perfect Competition
+--------------------------------------------
+Many or few Firms       Large number of firms
+
+Economies of Scale      No economies of scale
+
+No Barriers             None
+to entry or exit
+
+In contestable markets there are some small firms that can take a segment of the
+market away from big firms. 
+
+Side Note
+----
+New York draws people from all over the world to start a career, make a
+business, etc.
+
+If you are not good, you're not gonna make it
+
+Contestable Markets
+------
+
+Higher Prices
+---------
+Because of R&D
+
+Discriminatory Prices
+-----
+
+Frequency of Entry
+----
+
+Why enter such a market?
+--------
+
+Market Concentration
+----
+high concentration means a couple firms have a lot of market share
+On its own is not a great indication
+
+Conclusions
+-------
+
