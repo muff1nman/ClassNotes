@@ -549,25 +549,125 @@ Allows you to monitor, control or generally limit what can happen in a database
    you to compute the final return value and do any necessary cleanup
 
 
-    connection=apsw.Connection("foods.db")
+        connection=apsw.Connection("foods.db")
 
-    def step( context, *args):
-        context['value'] += args[0]
+        def step( context, *args):
+            context['value'] += args[0]
 
-    def finalize( context ):
-        return context['value']
+        def finalize( context ):
+            return context['value']
 
-    def pysum():
-        return ({'value' : 0}, step, finalize)
+        def pysum():
+            return ({'value' : 0}, step, finalize)
 
-    connection.createaggregatefunction("pysum", pysum)
+        connection.createaggregatefunction("pysum", pysum)
 
-    c = connection.cursor()
-    print c.execute("select pysum(id) from foods").next()[0]
+        c = connection.cursor()
+        print c.execute("select pysum(id) from foods").next()[0]
 
 #### Create User Defined Collations
 
     sqlite3_create_collation()
 
+11 Sqlite Internals and New Features
+------
+
+### Manifest Typing, Storage Classes and Affinity
+
+#### Manifest Typing
+Could mean that variables types must be explicitly declared in the code. Or that
+variables don't have types at all and only values have types.
+
+Former is MT1
+Latter is MT2
+
+Sqlite is both MT1 and MT2 and neither.  haha
+
+- MT1
+    - columns can have types
+    - column type can have influence on the value type
+- MT2
+    - columns don't have to have types
+    - a value has some influence on the type
+
+So we will call sqlite MT3
+
+Sqlite does not include strict type checking
+
+#### Type Affinity
+- By default, a column's default affinity is numeric. That is, if a column is
+  not integer, text, or none, then it is automatically assigned numeric
+  affinity.
+
+- If a column's declared type contains the string 'int' (in uppercase or
+  lowercase), then the column is assigned integer affinity.
+
+- If a column's declared type contains any of the strings 'char', 'clob', or
+  'text' (in uppercase or lowercase), then that column is assigned text
+  affinity. Notice that 'varchar' contains the string 'char' and thus will
+  confer text affinity.
+
+- If a column's declared type contains the string 'blob' (in uppercase or
+  lowercase), or if it has no declared type, then it is assigned none affinity.
+
+Note Pay attention to defaults. For instance, floatingpoint has affinity
+integer. If you don’t declare a column’s type, then its affinity will be none,
+in which case all values will be stored using their given storage class (or
+inferred from their representation). If you are not sure what you want to put in
+a column or want to leave it open to change, this is the best affinity to use.
+However, be careful of the scenario where you declare a type that does not match
+any of the rules for none, text, or integer. Although you might intuitively
+think the default should be none, it is actually numeric. For example, if you
+declare a column of type JUJYFRUIT, it will not have affinity none just because
+SQLite doesn’t recognize it. Rather, it will have affinity numeric.
+(Interestingly, the scenario also happens when you declare a column’s type to be
+numeric for the same reason.) Rather than using an unrecognized type that ends
+up as numeric, you may prefer to leave the column’s declared type out
+altogether, which will ensure it has affinity none.
+
+- A numeric column may contain all five storage classes. A numeric column has a
+  bias toward numeric storage classes (integer and real). When a text value is
+  inserted into a numeric column, it will attempt to convert it to an integer
+  storage class. If this fails, it will attempt to convert it to a real storage
+  class. Failing that, it stores the value using the text storage class.
+
+- An integer column tries to be as much like a numeric column as it can. An
+  integer column will store a real value as real. However, if a real value has
+  no fractional component, then it will be stored using an integer storage
+  class. integer column will try to store a text value as real if possible. If
+  that fails, they try to store it as integer. Failing that, text values are
+  stored as TEXT.
+
+- A text column will convert all integer or real values to text.
+
+- A none column does not attempt to convert any values. All values are stored
+  using their given storage class.
+
+- No column will ever try to convert null or blob values—regardless of affinity.
+  null and blob values are always stored as is in every column.
 
 
+#### Storage Classes and Type Conversions
+you can manually convert with
+
+    cast(3.14 as text)
+
+### Write Ahead Logging (WAL)
+Instead of writing the original to the rollback cache, the origial data is
+untouched in the database file
+
+    pragma journal_mode=WAL;
+    sqlite3_wal_checkpoint();
+    sqlite3_wal_autocheckpoint()
+    OR pragma wal_autocheckpoint=
+    sqlite3_wall_hook() -- callback for when a commit to the WAL happens
+
+##### Advantages
+- reader dont block writers and vice versa
+- faster
+- more predictable I/O
+
+##### Disadvantages
+- cannot use a networked filesystem because of shared memory
+- two additional semi persistent files
+- very large or long duration transactions introduce additional overhead
