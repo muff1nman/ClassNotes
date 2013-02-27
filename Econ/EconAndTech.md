@@ -814,3 +814,161 @@ On its own is not a great indication
 Conclusions
 -------
 
+02 - 27 - 2013
+=======
+
+Midterm Content
+---
+1. Lecture Materials
+    a. Market Structures
+    b. Market Failues
+    c. Growth
+    d. Routinization of R&D
+    e. Inter-firm Collaboration
+
++ trends for patenting
+- Merging markets 
++ questions from homework
+
+2. 
+3. Additional Readings
+    a. 
+    b.
+    c. See slides
+    d. VERY important - spells out CD
+    e. How CD works and small firms can come along and displace existing
+       incumbents
+    f.
+
+Midterm Review
+---------
+
+MC
+----
+According to disruptive technologies, firms that want to say atop their industry
+should critically assess possible disruptive technologies to better understand
+where their markets will be in the future
+
+Which one of the following best describes Schumpters idea of creative
+destruction: b. Captialism is unstable because the economy rev. itself
+
+1 2 3
+b 
+
+Short Essay
+-----
+According to Nakamura,....
+Developed countries are so far ahead in R&D and Universities and assets are so
+far ahead that the gap is increasing
+
+Review Questions - Economic Models
+-------
+- Traditionally, how has tech been treated in economic models?
+- How do market structure models differ?
+    - pc, olig, mono
+- How is innovation related to market structure?
+    - what was the example of corn framer showing
+- How do these Markets (private/public) differ
+    - Not enough incentive for the private market
+        - risk
+        - positive externalities
+        - this is why we have patents
+    - 
+- What are the problems with using static S&D models for modeling innovation?
+    - innovation is dynamic
+    - cannot tell the difference right now
+
+Review Questions - Captialism and Innovation
+-----
+1. Captialism
+2. Ineffieciencies
+3.
+4.
+
+Review Questions
+------
+1. 
+2. 
+3.
+4. Barrier to entry
+5. tricky, routinization of innovation makes profits go down, schumperter said
+   that oligopolies make a lot of profits
+6. arms-race model - not ask to draw graph, but recognize it , regognize
+   equations
+7. 
+
+Review Questions
+------
+1. 
+2. Mokerter reading
+3.
+4. How come growth didnt come off.. keypoints ---
+5. 
+6. Mokyr talks about two types of knowledge and the epistemic base
+
+Review Questions
+------
+1.
+2.
+3.
+4.
+5.
+
+Review Questions
+-------
+today
+conceptual questions, 
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. On Monday
+8. 
+
+Dissemination of TEchnology and Collaboration
+=======
+
+Collaboration between innovative firms
+------
+
+Patent issues make it required
+
+Consortiums decrease licensing costs
+
+Why must firms collaborate or die?
+-----
+1. 
+2. 
+3. 
+4. Time is important
+
+Four Types of R&D Collaboration
+-----
+1. Patent Consortiums, standards adoption
+2. 
+3. Feedback,  really the same thing as 2
+4. 
+
+Foxconn, provides spillover to other firms sourcing with them
+
+The larger the R&D firm the more likely for collaboration
+    - more budget
+    - combine with firms of similar size
+    - small firm doesn't have as much patents
+    - small firm has more risk
+    - large firm can steal the small firm technology, and litigate/crush small
+      firms
+
+Innovation and dissemination
+------
+conflict --- you want profits, so you may wants patents which goes against
+dissemination
+
+Empirical evidence
+------
+Competitve entry, time it takes for someone else to come up with a similar
+product to compete with the original work
+
+
