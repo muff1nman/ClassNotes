@@ -289,6 +289,7 @@ resolution)
     - the first phase of writing to a database
     - does not prevent shared locks
     - can start writing but changes are stored in a memory cache
+    - can only be one reserved lock at a time
 - pending
     - when a session wants to start committing its changes it first must get
       this lock before moving onto the exclusive lock
