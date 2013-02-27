@@ -917,4 +917,55 @@ frequent joins
 create keyword tells the database to only search for the first matching value
 ( since there should only be one )
 
+8 Using JDBC
+=========
+
+JDBC is unofficially called Java Data Base Connectivity
+
+8.1 Basic JDBC
+-------------
+> Basic JDBC consists of the interfaces and methods that express the core of
+> what JDBC does and how it is used
+
+The four fundamental activities of a JDBC program:
+1. Connect to the server
+2. Execute the desired query
+3. Loop through the result set
+4. Close the connection to the server
+
+### 8.1.1 Step 1: Connect to the Database Server
+
+    Driver d = new ClientDriver();
+    String url = "jdbc:derby://localhost/studentdb;create=false";
+    conn = d.connect(url, null);
+
+Packages used:
+- <code>java.sql</code>
+- vendor-supplied package that contains the driver class
+
+### 8.1.3 Step 3: Loop Through the Output Records
+
+A <em>ResultSet</em> object can be thought of as the collection of output
+records of a query.
+
+    String qry = "select ...";
+    ResultSet rs = stmt.executeQuery( qry );
+    while( rx.next() ) {
+        ...// process the record
+    }
+    rs.close();
+
+8.2 Advanced JDBC
+-------
+Isolation Levels:
+- Read-Uncommitted
+    - no isolation at all.  
+- Read-Committed
+    - forbids a transaction from accessing uncommitted values. 
+- Repeatable-Read
+    - extends Read-Committed so that reads are always repeatable. The only
+      possible problems are due to phantoms
+- Serializable
+    - guarantees that no problems will ever occur
+
 
