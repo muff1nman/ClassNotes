@@ -282,6 +282,8 @@ resolution)
 <strong>lock states</strong>
 - unlocked
     - no lock required
+- pending
+    - see below
 - shared
     - read
     - no session can write will there are shared locks
