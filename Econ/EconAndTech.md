@@ -949,7 +949,7 @@ Four Types of R&D Collaboration
 1. Patent Consortiums, standards adoption
 2. 
 3. Feedback,  really the same thing as 2
-4. 
+4. Chapter 4 in the book, universities holding patents, universities consulting
 
 Foxconn, provides spillover to other firms sourcing with them
 
@@ -963,7 +963,7 @@ The larger the R&D firm the more likely for collaboration
 
 Innovation and dissemination
 ------
-conflict --- you want profits, so you may wants patents which goes against
+conflict --- you want profits, so you may want patents which goes against
 dissemination
 
 Empirical evidence
@@ -971,4 +971,56 @@ Empirical evidence
 Competitve entry, time it takes for someone else to come up with a similar
 product to compete with the original work
 
+Incentives for voluntary dissemination
+------
+### Technology license markets
+1. patents are scarce
+2. 
+
+Firms will choose option in their best interest
+
+Technology licensing
+------
+Common to license and still make a profit
+
+The complex networks do the most efficient allocation for each node
+
+### Why don't firms copy technology?
+
+Captures spillovers, (negative externality?)
+
+Benefits of technology consortia
+-----
+Repetition makes possibility of screwing your neighbor less. (Game theory)
+
+Technology Consortia in Practice
+------
+
+Why join?
+------
+
+The Technology Consortium Model
+-----
+
+1. Each innovation is slightly different, but complementary, important for the
+   model to work
+2.
+3.
+4.
+
+####Model Params
+Variable costs
+
+    TC = VC + TC
+    TC = C(y) + x 
+
+Perfect competition model, so straight across Demand curve
+
+*Know* that the firms participating are more profitable
+
+Compounding effect between the difference in the hold out firm and the consortium
+costs.
+
+Welfare Gains from Consortium
+------
 
