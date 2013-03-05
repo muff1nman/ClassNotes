@@ -107,14 +107,15 @@ e.f. codd
     - scales well
     - integrity
 
-### 
+### Are there cases where storing data in a flat file are better than storing data in an RDBMS?
 embedded
+others?
 
-data model
+What is a data model
 -----
 framework describes how you can work with/ think about the data
 
-er model
+What is an er model
 -------
 model that represents the world as entities and relationships
 
@@ -144,4 +145,61 @@ dml
 ----
 data manipulation language
 
+Given a relational schema: 
 
+    CREATE TABLE snacks(id integer not null 
+    primary key, sku TEXT, name TEXT, calories INTEGER)
+    
+answer the following.
+
+What is the average number of calories contained in a snack? What is the min?Max?
+----
+
+    select avg(calories), min(calories), max(calories) from snacks;
+
+What are the names of all snacks, in reverse alphabetical order?
+----
+
+    select name from snacks ORDER BY name DESC;
+
+How many total calories are in one particular campus vending machine?
+----
+
+    select sum(calories) from snacks where id = ? group by id;
+
+How many calories are contained in snacks with a name containing the word “Yum”?
+------
+
+    select calories from snacks where name like "%yum%";
+
+Add a new snack to the database, without associating it with a vending machine.
+-----
+
+    insert into snacks( id, sku, name, calories) values( 1, "1", "Reese Pieces",
+    300);
+
+Associate a snack having the id of 2 with a vending machine having the id of 3.
+----
+
+If the snack having an id of 7 is no longer available in the machine having the id of 3, what DML statement would you execute?
+------
+
+    begin;
+    insert into snacks(id, name, calloriers) values (7, "Oreos", 200);
+
+    end;
+
+Remove a snack with id 42 from the database. (Assume no FK constraints exist.)
+------
+
+    delete from snacks where id = 42;
+
+Modify the names of all snacks in the database having the specific name “Yucky Muck”  such that they have a new name, “Yummy Yum.”
+-----
+
+    update snacks set name = "Yummy Yum" where name = "Yucky Muck";
+
+Modify the calories of all snacks associated with vending machine 3, setting the snack calories to 2000.
+------
+
+    
