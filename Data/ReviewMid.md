@@ -149,6 +149,8 @@ Given a relational schema:
 
     CREATE TABLE snacks(id integer not null 
     primary key, sku TEXT, name TEXT, calories INTEGER)
+    CREATE TABLE machines(id integer not null primary key);
+    CREATE TABLE join(machine_id, snack_id);
     
 answer the following.
 
@@ -181,18 +183,18 @@ Add a new snack to the database, without associating it with a vending machine.
 Associate a snack having the id of 2 with a vending machine having the id of 3.
 ----
 
+    insert into join(machine_id, snack_id) values( 3,2);
+
 If the snack having an id of 7 is no longer available in the machine having the id of 3, what DML statement would you execute?
 ------
 
-    begin;
-    insert into snacks(id, name, calloriers) values (7, "Oreos", 200);
-
-    end;
+    delete from join where machine_id = 3 and snack_id = 7;
 
 Remove a snack with id 42 from the database. (Assume no FK constraints exist.)
 ------
 
     delete from snacks where id = 42;
+    delete from join where snack_id = 42;
 
 Modify the names of all snacks in the database having the specific name “Yucky Muck”  such that they have a new name, “Yummy Yum.”
 -----
@@ -202,4 +204,9 @@ Modify the names of all snacks in the database having the specific name “Yucky
 Modify the calories of all snacks associated with vending machine 3, setting the snack calories to 2000.
 ------
 
+    update snacks set calories = 2000 where id in (select snacks.id as id from
+    snacks left outer join ( select * from join_table  left outer join machines
+    on join_table.machine_id = machines.id));
+
+    
     
