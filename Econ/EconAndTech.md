@@ -56,7 +56,7 @@ Definition of Innovation
   Business ahs only two functions, innovation and marketing. -- Peter F. Drucker
  
 
-11 - 01 - 2013
+11 - 01 - 2013 | Lecture 10 | Oligopoly and Investment Risk
 ======
 
 ## Product and process innovations
@@ -183,10 +183,10 @@ an equil. where social wlefare is maxed.
 
 - No barriers to entry: Equal access to inputs and technology (i.e. patents)
 - Identical goods
-- Perfect information: All market particpants know prices (input prices, output
-  prices, etc)
+- Perfect information: All market participants know prices (input prices, output
+  prices, etc.
 - Many buyers and sellers
-- No uncertainity 
+- No uncertainty 
 - Firms are price takers (its actions cannot impact market price)
 - Transactions are costless
 
@@ -199,7 +199,7 @@ an equil. where social wlefare is maxed.
 - Group present on fri
 
 
-14 - 01 - 2013
+14 - 01 - 2013 | Lecture 3 | Market Structure Review
 ======
 
 ## Market Structure
@@ -249,7 +249,7 @@ less sloped demand curve
 #### Fertile ground for innovation!
 
 
-16 - 01 - 2013
+16 - 01 - 2013 | Lecture 4 | The Market for Innovation
 ======
 
 The growth miracle of free-enterprise?
@@ -324,7 +324,7 @@ Patent races and duplication
 ----
 
 
-21 - 01 - 2013
+21 - 01 - 2013 | Lecture 5 | Patents and Innovation
 ======
 
 Intellectual Property Rights
@@ -368,7 +368,7 @@ manage who invent first
 Encourages firms to patent trade secrets otherwise someone else might file
 first.
 
-23 - 01 - 2013
+23 - 01 - 2013 | Lecture 6 | Trademarks and Trade Secrets
 ======
 
 Trademarks
@@ -431,7 +431,7 @@ Digital Media
 
 Since there is minimal price for a product, should focus on economies of scale.
 
-28 - 01 - 2013
+28 - 01 - 2013 | Lecture 7 | The Entrepreneur, The Rule of Law and Innovation
 ======
 *Note no slides for this week.  See the reading on blackboard*
 
@@ -512,7 +512,7 @@ Very large pension funds were used to fund businesses past the startup stage.
 Its hard to tell if the IT "revolution" is a true revolution and it will take
 time to tell as we are living in it right now
 
-04 - 02 - 2013
+04 - 02 - 2013 | Lecture 8 | Creative Destruction
 ====
 
 Communism
@@ -600,7 +600,7 @@ Additional points
 5. Countries cannot really catch up
 
 
-06 - 02 - 2013
+06 - 02 - 2013 | Lecture 9 | Capitalism and Innovation
 ====
 
 The Miracle of Capitalism
@@ -662,7 +662,7 @@ Inefficiency of Capitalist Growth
 
 Voluntary dissemination
 
-11 - 02 - 2013
+11 - 02 - 2013 | Lecture 10 | Oligopoly and Investment Risk
 ======
 
 Oligopoly and R&D
@@ -684,7 +684,7 @@ Innovation is Risky
 Youtube:
 Innovation Kitchen Nike
 
-13 - 02 - 2013
+13 - 02 - 2013 | Lecture 11 | Oligopoly and Routinization of Innovation
 ======
 
 Risk Aversion
@@ -708,7 +708,7 @@ Relevance of Sunk Costs
 Creates a barrier to entry
 
 
-20 - 02 - 2013
+20 - 02 - 2013 | Lecture 12 | Firm Size and Contestable Markets
 ======
 
 Sunk Costs And Non-Zero Profits for Oligopolies
@@ -814,7 +814,7 @@ On its own is not a great indication
 Conclusions
 -------
 
-02 - 27 - 2013
+27 - 02 - 2013 | Lecture 13 | Dissemination of Technology and Collaboration
 =======
 
 Midterm Content
@@ -865,18 +865,131 @@ Review Questions - Economic Models
 -------
 - Traditionally, how has tech been treated in economic models?
 - How do market structure models differ?
-    - pc, olig, mono
+    - Perfect Competition
+        - No barriers to entry: Equal access to inputs and technology (i.e. patents)
+        - Identical goods
+        - Perfect information: All market participants know prices (input prices, output
+          prices, etc.
+        - Many buyers and sellers
+        - No uncertainty 
+        - Firms are price takers (its actions cannot impact market price)
+            - Horizontal demand curve
+        - MC = MR = Price, therefore profit = 0
+        - Transactions are costless
+        - Efficient outcome
+    - Oligopolies
+        - Few Firms
+        - Products can be heterogeneous or homogeneous
+        - High Barriers to Entry and Exit
+        - Downward sloping demand curve
+        - Price Setters
+        - Profit > = zero
+        - Marginal Revenue = MC
+        - Strategic competition
+        - incomplete knowledge
+        - semi-efficient
+        - Interdependence of firms
+    - Monopolies
+        - one firm
+        - Barriers to entry
+            - patents
+            - economies of scale
+        - Downward sloping demand curve
+        - Price setters, profit > zero
+        - MR = MC
+        - inefficient
+        - no competition
+        - proprietary knowledge
+    - Contestable Markets
+        - 
 - How is innovation related to market structure?
-    - what was the example of corn framer showing
+    - what was the example of corn framer showing?
+        - (Perfect Competition) There was no period of appropriablility
+          therefore he doesn't have a reason to innovate
+        - if there is a period then he can recoup the costs of innovation
+        - note that society benefits if the farmer innovates
+    - Perfectly competitive
+        - Supply increases, knowledge is shared (perfect knowledge)
+        - price drops, profit drops back to zero
+        - The farmer incurred the cost of innovation
+        - Therefore no incentive to innovate in a perfectly competitive market
+    - Monopoly
+        - little incentive to innovate
+        - positive profits
+        - they are able to recoup their R&D costs and so sometimes engage in R&D
+    - Oligopolies
+        - Fertile ground for innovation
+        - If they don't innovate, they DIE
+        - When they don't innovate, their future profits go to zero and they get
+          behind other firms
 - How do these Markets (private/public) differ
     - Not enough incentive for the private market
         - risk
         - positive externalities
         - this is why we have patents
     - 
-- What are the problems with using static S&D models for modeling innovation?
+- What are the problems with using static Supply & Demand models for modeling innovation?
+    - There is no need for the firm to spend money on R&D because they only
+      optimize over one period (i.e. one quarter)
+    - The benefits of R&D comes in the future but the costs occur today
     - innovation is dynamic
     - cannot tell the difference right now
+    - A static model cannot show for why a firm would innovate
+- Why has capitalism been so successful at fostering innovation?
+    - *new* consumers' goods
+    - *new* methods of production or transportation
+    - *new* markets
+    - *new* forms of industrial organization
+    - to succeed at capitalism, innovation must take place
+    - Because it has the following attributes
+        - Oligopolistic competition
+        - Routinization of innovation
+            - Engineers are expected to improve technologies
+        - Productive entrepreneurship
+        - the rule of law
+            - property rights
+            - magna carta
+        - Technology selling & trading
+            - Market economy
+- What are the inefficiencies of capitalism in regard to innovation and economic
+  growth?
+  - Consumers are driving firms, and may not necessarily chose the best product
+  - R&D is sometimes duplicated
+  - Not enough R&D is done
+
+- What is Creative Destruction (CD)?
+    - incessantly revolutionizes the economic structure from within, incessantly
+      destroying the old one, incessantly creating a new one
+- What are the drawbacks for an economy with CD?
+    - SKIP
+- What role does risk play in innovation?
+    - Makes firms diversify
+    - Introduces collaboration to share the risk with others and joint ventures
+    - Risk leads to underinvestment
+- In the face of uncertainty, how can a firm decide on whether or not to proceed
+  with an innovation project?
+  - Compute Rate Of Return
+
+        delta V / V_i
+
+    - V_i is the investment in an R&D project
+    - V_f is expected gross payoff
+
+    - However since innovation is uncertain, we do not know V_f so we need to
+      use expected value (E(V_f))
+
+        E(V_f) - V_i / V_i = EVProject / V_i
+
+- Why routinize innovation?
+    - Product improvement
+        - most innovates are not ground breaking
+        - innovation is the main competitive weapon of high-tech firms
+    - increased reliability
+    - enhanced user-friendliness
+    - search for new uses
+    - Routine R&D reduces the firms risk of innovating
+
+    - HERE
 
 Review Questions - Captialism and Innovation
 -----
