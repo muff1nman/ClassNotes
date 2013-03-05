@@ -877,6 +877,7 @@ Review Questions - Economic Models
         - MC = MR = Price, therefore profit = 0
         - Transactions are costless
         - Efficient outcome
+        - Many small firms
     - Oligopolies
         - Few Firms
         - Products can be heterogeneous or homogeneous
@@ -1035,19 +1036,140 @@ Review Questions - Economic Models
         - enforceable contracts
         - They make it less risky to innovate!
     - Security
-    - HERE
 - Why is capitalist growth seen as evolutionary?
+    - prior to the industrial revolutions, world-wide growth was stagnant
+    - capitalism brought about constant growth
+    - COME BACK TO
 - How was innovation and growth in Ancient Greece, Rome, the Middle Ages, China?
+    - Ancient Greece (slavery)
+        - Slavery
+        - Chasm between classes
+        - low opinion of productive work
+        - social position dictated by things such as ethnicity
+    - Rome (Violence)
+        - Sought wealth through rent seeking and destructive enterprise
+        - novelty was discouraged, imitation was preferred
+    - Medieval China (corruption)
+        - monarch could claim any property
+        - entrepreneurship wanted to gain government positions
+        - no competitive market
+    - Servile England (taxation)
+        - 80% of labor force in agriculture
+        - high taxes by the nobility class
+        - nobility thought innovation would curve their powers
+
 - What factors led to the Industrial Revolution?
+    - First Industrial Revolution (1760 - 1830)
+        - new emphasis on knowledge
+        - improved institutions
+        - increased productivity of textbooks
+        - *Did not run into diminishing returns*
+    - Second Industrial Revolution (1860 - )
+        - R&D emerges, less experimental, more directed
+        - Access to knowledge
+            - cheaper, faster, international
+        - larger epistemic base increased likelihood of major inventions
+        - British capital market
+            - supplied capital for R&D
 - What role does knowledge play for growth?
+    - Epistemic Base
+        - Def: Level of understanding
+        - Two types
+            - Propositional
+                - What knowledge
+                - right/wrong
+                - discoveries
+                - not patentable
+                - example: Formula for calculating area of circle
+            - Prescriptive
+                - How-to knowledge
+                - successful/unsuccessful
+                - inventions
+                - patentable
+                - example: How to make steel
+        - Increases economic returns but is subject to diminishing returns to
+          scale
+        - Each innovation/technique requires a minimum epistemic base, and
+          requires widening for continued progress
+- What is the Contestable Markets Model?
+- How does this model differ from the Perfect competition model?
+
+        Contestable market      Perfect Competition
+        --------------------------------------------
+        Many or few Firms       Large number of firms
+
+        Economies of Scale      No economies of scale
+
+        No Barriers             None
+        to entry or exit
+
+    - In contestable markets there are some small firms that can take a segment
+      of the market away from big firms. 
+    - *NOTE* we use the contestable market model for high technology firms
+
+- What drives the competition in this[Contestable Market] model?
+    - The idea that anyone can enter, which causes incumbent firms to continue
+      innovating to stay in the industry
+    - Forces firms to be competitive
+- What encourages entry into a contestable market?
+    - Excessive optimism
+        - promising new product
+        - new tech?
+    - Special advantage
+        - talented employees
+- What are the policy implications?
+    - COME BACK TO
 - Why would firms want to collaborate?
+    - lowers risk
+    - the larger the R&D, the more likely the firm is to collaborate
 - What types of firms collaborate?
+    - The larger the R&D firm the more likely for collaboration
+    - more budget
+    - combine with firms of similar size
+    - small firm doesn't have as much patents
+    - small firm has more risk
+    - large firm can steal the small firm technology, and litigate/crush small
+      firms
 - What can these collaborations look like?
+    - With competitors
+        - horizontal
+    - With Suppliers
+        - vertical
+    - With Customers
+        - vertical
+    - With Universities and Research Centers
+        - institutional
 - Why would firms voluntarily pass proprietary technology to another firm?
+    - Technology Licensing
+        - More likely with small firms that dont have the supply chain, captial
+          raising, and marketing capabilities of larger firms
+    - Technology Sharing Consortiums
+        - 
+    - They choose the most profitable option (possibly both)
 - What circumstances would lead to this?
+    - See above
 - Why do some firms form consortiums?
+    - Advantage for participants by sharing R&D
+    - Strong incentives to comply with agreements
+    - Membership gives incentive to invest in  R&D
+    - Result is a contribution to social welfare
+    - Anti-trust must not interfere with tech consortium
+    - *NOTE* they stay out of consortia to maintain superior profit from
+      customer loyalty (e.g., Apple)
+    - if innovations are perfect substitutes then there would be no incentive,
+      I.E. innovations are heterogeneous, small improvements, that complement
+      each other
 - What is the Technology-Consortium Model?
+    - Heterogeneous innovations
+    - Inventions of separate firms are different from one another and complementary
+    - Sharing firms can expect a positive net benefit from the information it
+      obtains from other consortium members 
+    - “Friendly transfer” faster than non-friendly information transfer 
+    - Innovation reduces cost of production only
+    - There are costs to technology transfer for the receiving firm, the process
+      of imitation is not free
 - What effect does this inter-firm cooperation have on social welfare?
+    - It helps
 
 Review Questions - Capitalism and Innovation
 -----
