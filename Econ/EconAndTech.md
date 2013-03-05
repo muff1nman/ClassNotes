@@ -814,11 +814,8 @@ On its own is not a great indication
 Conclusions
 -------
 
-27 - 02 - 2013 | Lecture 13 | Dissemination of Technology and Collaboration
-=======
-
 Midterm Content
----
+=======
 1. Lecture Materials
     a. Market Structures
     b. Market Failues
@@ -1220,7 +1217,7 @@ conceptual questions,
 7. On Monday
 8. 
 
-Dissemination of TEchnology and Collaboration
+27 - 02 - 2013 | Lecture 13 | Dissemination of Technology and Collaboration
 =======
 
 Collaboration between innovative firms
@@ -1281,6 +1278,9 @@ The complex networks do the most efficient allocation for each node
 ### Why don't firms copy technology?
 
 Captures spillovers, (negative externality?)
+
+04 - 03 - 2013 | Lecture 14 | The Technology Consortium Model
+=======
 
 Benefits of technology consortia
 -----
