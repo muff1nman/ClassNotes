@@ -850,7 +850,7 @@ should critically assess possible disruptive technologies to better understand
 where their markets will be in the future
 
 Which one of the following best describes Schumpters idea of creative
-destruction: b. Captialism is unstable because the economy rev. itself
+destruction: b. Captialism is unstable because the economy revolutionizes itself
 
 1 2 3
 b 
