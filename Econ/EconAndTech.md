@@ -988,13 +988,71 @@ Review Questions - Economic Models
     - enhanced user-friendliness
     - search for new uses
     - Routine R&D reduces the firms risk of innovating
-
+- What role do sunk costs play?
+    - Sunk costs create a barrier to entry that allows the possibility of
+      positive profits to the industry
+    - Minor sunk costs force profits to zero (Perfect Competition)
+    - Major sunk costs equal barriers to exit and high risk of entry
+    - Impact decision making
+- How does the idea of routinization of innovation conflict with the Schumpertian view?
+    - routine innovation tends to limit the resulting profits, which contrasts
+      with Schump's idea of extraordinary profits.
+- What is the arms-race model?
+    - Profit maximizing firm will adopt the quantity of R&D at which marginal
+      profit yield is zero
+    - Magnitude of profit depends on the behavior or industry firms (level of
+      competition)
+    - no firm wants to fall behind
+    - temporary equilibriums in R&D expenditures
+    - and then sudden increases
+    - Short term decrease in R&D allows for high profits but in the long term
+      you will go out of business
+    - If one business increases their R&D then other businesses will have to
+      increase as well.
+    - It benefits society for businesses to increase R&D spending.
+- How does technical change influence GDP?
+    - These things magnify the contribution of technical change to GDP
+        - creative knowledge cumulation
+        - spillovers
+        - steady R&D spending -> GDP growth
+        - increases in R&D spending -> faster rate of GDP growth
+    - Eventually, diminishing returns to R&D might halt technical change
+      contribution to GDP growth
+- What role can the entrepreneur play in technological growth?
+    - *The entrepreneur is the independent innovator*
+    - they can be innovative but not productive for society (i.e. money
+      laundering, drug cartels)
+    - Most economic theory ignores entrepreneurs (they're hard to model)
+    - they are vital for economic growth
+- What factors influence the entrepreneur's activities?
+    - Mores - attitudes about "acceptable" behavior
+    - Good institutions
+        - transparent government
+        - checks and balances
+        - They make it less risky to innovate!
+    - set of laws and rule of law
+        - private property
+        - enforceable contracts
+        - They make it less risky to innovate!
+    - Security
     - HERE
+- Why is capitalist growth seen as evolutionary?
+- How was innovation and growth in Ancient Greece, Rome, the Middle Ages, China?
+- What factors led to the Industrial Revolution?
+- What role does knowledge play for growth?
+- Why would firms want to collaborate?
+- What types of firms collaborate?
+- What can these collaborations look like?
+- Why would firms voluntarily pass proprietary technology to another firm?
+- What circumstances would lead to this?
+- Why do some firms form consortiums?
+- What is the Technology-Consortium Model?
+- What effect does this inter-firm cooperation have on social welfare?
 
-Review Questions - Captialism and Innovation
+Review Questions - Capitalism and Innovation
 -----
-1. Captialism
-2. Ineffieciencies
+1. Capitalism
+2. Inefficiencies
 3.
 4.
 
