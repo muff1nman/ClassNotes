@@ -1153,7 +1153,12 @@ Review Questions - Economic Models
     - Special advantage
         - talented employees
 - What are the policy implications?
-    - COME BACK TO
+    - Price discrimination is often a feature of competitive innovation markets
+    - Price discrimination does not always indicate market power
+    - The number of firms in the industry does not always indicate market power
+    - So?
+        - Anti-trust laws?
+        - growth policy?
 - Why would firms want to collaborate?
     - lowers risk
     - the larger the R&D, the more likely the firm is to collaborate
