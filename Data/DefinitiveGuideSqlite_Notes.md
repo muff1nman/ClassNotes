@@ -46,7 +46,7 @@ Chapter 2
     WHERE predicate
     GROUP BY column
     HAVING predicate
-    heading
+    SELECT heading
     DISTINCT
     ORDER BY columns
     LIMIT int, int; /* The command notation is short for LIMIT int, OFFSET int;*/
@@ -221,16 +221,32 @@ Errors can also be raised:
     - undoes all work since the begin command
 
 <strong>additional commands</strong>
-- savepoint
+- <code>savepoint</code>
     - instead of rolling back the entire transaction we can roll back to a
       particular save point
-    - i.e. 
+    - I.e. 
         
         savepoint justincase;
         --- ... do stuff
         rollback [transaction] to justincase;
 - release
-    - 
+
+> The <code>RELEASE</code> command is like a <code>COMMIT</code> for a
+> <code>SAVEPOINT</code>. The <code>RELEASE</code> command causes all
+> <code>savepoints</code> back to and including the most recent
+> <code>savepoint</code> with a matching name to be removed from the transaction
+> stack. The <code>RELEASE</code> of an inner transaction does not cause any
+> changes to be written to the database file; it merely removes
+> <code>savepoints</code> from the transaction stack such that it is no longer
+> possible to ROLLBACK TO those <code>savepoints</code>. If a
+> <code>RELEASE</code> command <code>releases</code> the outermost
+> <code>savepoint</code>, so that the transaction stack becomes empty, then
+> <code>RELEASE</code> is the same as <code>COMMIT</code>. The
+> <code>COMMIT</code> command may be used to <code>release</code> all
+> <code>savepoints</code> and <code>commit</code> the transaction even if the
+> transaction was originally started by a <code>SAVEPOINT</code> command instead
+> of a BEGIN command.
+
 
 <strong>auto-commit mode</strong> when SQLite automatically enclosed each
 command in its own transaction. 
@@ -280,6 +296,7 @@ resolution)
 
 ### Database Locks
 <strong>lock states</strong>
+
 - unlocked
     - no lock required
 - pending
@@ -305,6 +322,7 @@ resolution)
 
 #### Transaction Types
 <strong>types</strong>
+
 - deferred *default*
     - does not acquire any locks until it has to
     - begin starts as unlocked.

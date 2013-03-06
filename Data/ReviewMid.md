@@ -5,7 +5,6 @@ History -> RDBMS -> Relational
 Data models, schemas
 
 ER model, erd
-|
 relational
 implementation
 SQLITE
@@ -15,19 +14,7 @@ DDL
 DML
 
 Schema design and Normalization
-ACID
-transactions
-programming and APIs
 
-Definitions
------------
-- whats a data model
-- whats a schema
-
-History
--------
-- who invented relational model
-- what were the two key features that set it apart
 
 Data Models, Schemas
 -------
@@ -48,10 +35,7 @@ aggregate functions
 
 dont need or having, or group by
 
-ACID
 
-syntax of transactions
-- begin, commit, rollback
 
 programming
 ------
@@ -124,7 +108,7 @@ er model vs erd
 cannot draw er model (framework)
 erd is just a picture
 
-schema
+What is a schema?
 ------
 structure of the database along with its constraints and rules
 - meta data on a database
@@ -208,5 +192,69 @@ Modify the calories of all snacks associated with vending machine 3, setting the
     snacks left outer join ( select * from join_table  left outer join machines
     on join_table.machine_id = machines.id));
 
-    
-    
+Other Stuff
+=======
+ACID
+----
+- Atomicity
+    - database needs to perform operations that are atomic
+    - all or nothing, can't be broken down
+    - Entirely succeeds or fails
+- Consistency
+    - every transaction leaves the database in a valid state
+- Isolation
+    - independent
+    - all transactions, especially during concurrency, must execute in isolation
+- Durability
+    - Once a transaction is done, the results are permanent
+
+Explain the syntax of transactions including <code>begin, commit, rollback</code>
+-----
+<strong>Three commands/parts for a transaction</strong>
+- begin
+    - starts a transaction. 
+    - every operation after a begin can potentially be undone
+- commit
+    - commits the work performed by all operations since the beginning of the
+      transaction
+- rollback
+    - undoes all work since the begin command
+
+<strong>additional commands</strong>
+- <code>savepoint</code>
+    - instead of rolling back the entire transaction we can roll back to a
+      particular save point
+    - I.e. 
+        
+        begin;
+        savepoint justincase;
+        --- ... do stuff
+        release [savepoint] justincase;        
+        rollback [transaction] to justincase;
+        commit;
+
+- release
+
+> The <code>RELEASE</code> command is like a <code>COMMIT</code> for a
+> <code>SAVEPOINT</code>. The <code>RELEASE</code> command causes all
+> <code>savepoints</code> back to and including the most recent
+> <code>savepoint</code> with a matching name to be removed from the transaction
+> stack. The <code>RELEASE</code> of an inner transaction does not cause any
+> changes to be written to the database file; it merely removes
+> <code>savepoints</code> from the transaction stack such that it is no longer
+> possible to ROLLBACK TO those <code>savepoints</code>. If a
+> <code>RELEASE</code> command <code>releases</code> the outermost
+> <code>savepoint</code>, so that the transaction stack becomes empty, then
+> <code>RELEASE</code> is the same as <code>COMMIT</code>. The
+> <code>COMMIT</code> command may be used to <code>release</code> all
+> <code>savepoints</code> and <code>commit</code> the transaction even if the
+> transaction was originally started by a <code>SAVEPOINT</code> command instead
+> of a BEGIN command.
+
+## Index
+
+    create index MAJOR_IDX on STUDENT( MajorId );
+
+
+
+

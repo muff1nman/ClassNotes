@@ -252,7 +252,7 @@ Codd:
 
 Figure 3-5
 
-A relation is a value, a table is a variable to which relations are assigned.
+*A relation is a value, a table is a variable to which relations are assigned.*
 
 > Tables, like variables, have both a name and a value.  Their name is just a
 > symbol. Their value is a relation. They are no different than variables in
@@ -424,7 +424,7 @@ functionally dependent upon *all* attributes of the primary key.
 Roots out what is called transitive dependencies.
 
 Transitive dependency
-- a chain of tow or more functional dependencies spanning two or more attribute
+- a chain of two or more functional dependencies spanning two or more attribute
   groups (two or more correlations).
 
 See Table 3-5 for example.
@@ -479,8 +479,6 @@ DML (Data Manipulation Language)
     - SQL algebra is result centered. specifies desired information but is vague
       on how to get it. 
 
-- 
-
 4.1 Queries
 --
 queries have three important features
@@ -502,6 +500,7 @@ benefits
 --
 
 Single table input operators:
+
 - select
     - output table has the same columns as its input table, but with some rows
       removed
