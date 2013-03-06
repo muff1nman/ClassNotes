@@ -861,6 +861,7 @@ far ahead that the gap is increasing
 Review Questions - Economic Models
 -------
 - Traditionally, how has tech been treated in economic models?
+    - It has been treated as an external factor, a constant in a formula
 - How do market structure models differ?
     - Perfect Competition
         - No barriers to entry: Equal access to inputs and technology (i.e. patents)
@@ -959,7 +960,21 @@ Review Questions - Economic Models
     - incessantly revolutionizes the economic structure from within, incessantly
       destroying the old one, incessantly creating a new one
 - What are the drawbacks for an economy with CD?
-    - SKIP
+    - Being creative is risky
+        - Risk discourages people from being creative
+    - Creativity puts existing products at risk
+        - producers
+        - consumers
+        - Good existing products may get replaced
+    - Future creativity is hard to predict
+        - Hard to know how long its gonna take to pay back
+    - Creativity is hard to value
+        - Time (we only learn the true value over time)
+        - Measurement (Intangible creativity)
+    - Creative Destruction may promote inequality
+        1. Creative Types are rewarded
+        2. Sustains worldwide inequality - barriers to entry - countries cannot
+           catchup
 - What role does risk play in innovation?
     - Makes firms diversify
     - Introduces collaboration to share the risk with others and joint ventures
