@@ -93,6 +93,7 @@ e.f. codd
 
 ### Are there cases where storing data in a flat file are better than storing data in an RDBMS?
 embedded
+sequential access / appending data
 others?
 
 What is a data model
@@ -116,6 +117,7 @@ structure of the database along with its constraints and rules
 containt
 -----
 rules
+They enforce database rules and relationships and preserve order in general.
 
 sql
 ----
