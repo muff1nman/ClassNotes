@@ -921,12 +921,12 @@ Review Questions - Economic Models
         - If they don't innovate, they DIE
         - When they don't innovate, their future profits go to zero and they get
           behind other firms
-- How do these Markets (private/public) differ
+- How do the private and public markets for innovation differ? Why?
     - Not enough incentive for the private market
         - risk
         - positive externalities
         - this is why we have patents
-    - 
+    - COME BACK TO
 - What are the problems with using static Supply & Demand models for modeling innovation?
     - There is no need for the firm to spend money on R&D because they only
       optimize over one period (i.e. one quarter)
@@ -955,7 +955,7 @@ Review Questions - Economic Models
   - Consumers are driving firms, and may not necessarily chose the best product
   - R&D is sometimes duplicated
   - Not enough R&D is done
-
+  - COME BACK TO
 - What is Creative Destruction (CD)?
     - incessantly revolutionizes the economic structure from within, incessantly
       destroying the old one, incessantly creating a new one
@@ -976,9 +976,11 @@ Review Questions - Economic Models
         2. Sustains worldwide inequality - barriers to entry - countries cannot
            catchup
 - What role does risk play in innovation?
-    - Makes firms diversify
+    - Makes firms diversify (hedge their bets/risk on multiple products)
     - Introduces collaboration to share the risk with others and joint ventures
     - Risk leads to underinvestment
+    - Can be a Barrier to entry, increased cost for R&D
+    - Firms use routinization
 - In the face of uncertainty, how can a firm decide on whether or not to proceed
   with an innovation project?
   - Compute Rate Of Return
@@ -992,6 +994,10 @@ Review Questions - Economic Models
       use expected value (E(V_f))
 
         E(V_f) - V_i / V_i = EVProject / V_i
+
+    - Also when there are multiple outcomes: 
+
+        EV = (Probability1 x Expected Payoff1) + (Prob2 x EP2) + …. + (ProbN x EPN)
 
 - Why routinize innovation?
     - Product improvement
@@ -1037,6 +1043,9 @@ Review Questions - Economic Models
       laundering, drug cartels)
     - Most economic theory ignores entrepreneurs (they're hard to model)
     - they are vital for economic growth
+        - they create products from the epistemic base
+        - fuel innovation
+    - COME BACK TO
 - What factors influence the entrepreneur's activities?
     - Mores - attitudes about "acceptable" behavior
     - Good institutions
@@ -1104,6 +1113,7 @@ Review Questions - Economic Models
         - Each innovation/technique requires a minimum epistemic base, and
           requires widening for continued progress
 - What is the Contestable Markets Model?
+    - See next question
 - How does this model differ from the Perfect competition model?
 
         Contestable market      Perfect Competition
@@ -1117,7 +1127,20 @@ Review Questions - Economic Models
 
     - In contestable markets there are some small firms that can take a segment
       of the market away from big firms. 
+    - There is a *repeated sinking of funds* in order to maintain a position in
+      a contestable market - does not prevent entry
     - *NOTE* we use the contestable market model for high technology firms
+    - Cannot adopt prices that yield super-profits
+        - This would encourage entrants with lower prices
+    - No firm can operate inefficiently (for very long)
+        - Firm will be taken over or collapse
+    - Each firm produces cost-minimizing output
+        - The number of firms in the market will therefore be the number
+          required to meet demand at minimum cost 
+    - Customer demands will be fully met
+        - Otherwise entry would occur in response to high prices
+    - Often many cases of entry and many cases of failure
+        - Entry is always a very risky undertaking!
 
 - What drives the competition in this[Contestable Market] model?
     - The idea that anyone can enter, which causes incumbent firms to continue
