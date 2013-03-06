@@ -1181,13 +1181,13 @@ Review Questions - Economic Models
         - institutional
 - Why would firms voluntarily pass proprietary technology to another firm?
     - Technology Licensing
-        - More likely with small firms that dont have the supply chain, captial
+        - More likely with small firms that don't have the supply chain, capital
           raising, and marketing capabilities of larger firms
     - Technology Sharing Consortiums
         - 
     - They choose the most profitable option (possibly both)
 - What circumstances would lead to this?
-    - See above
+    - Dunno
 - Why do some firms form consortiums?
     - Advantage for participants by sharing R&D
     - Strong incentives to comply with agreements
@@ -1208,6 +1208,30 @@ Review Questions - Economic Models
     - Innovation reduces cost of production only
     - There are costs to technology transfer for the receiving firm, the process
       of imitation is not free
+
+            x: expenditure on R&D
+            n: number of participating firms
+            r: expected return for R&D 
+            s: cost reduction from other participants
+            C(yP): Cost of producing y units for the participating firms
+            C(yH): Cost of producing y units for the hold out firm
+
+            TC = VC + TC
+            TC = C(y) + x 
+
+            Participants 1…n: TC = C(yP)[1-r-s(n-1)] + x
+            Hold out firm:    TC = C(yH)[1-r] + x
+
+            For the next term:
+
+            Participants 1…n: TC = C(yP)[1-r-s(n-1)]^2 + x
+            Hold out firm:    TC = C(yH)[1-r]^2 + x
+
+    - Perfect competition model, so straight across Demand curve
+    - *Know* that the firms participating are more profitable
+    - Compounding effect between the difference in the hold out firm and the
+      consortium costs.
+
 - What effect does this inter-firm cooperation have on social welfare?
     - It helps
 
@@ -1347,8 +1371,24 @@ The Technology Consortium Model
 ####Model Params
 Variable costs
 
+    x: expenditure on R&D
+    n: number of participating firms
+    r: expected return for R&D 
+    s: cost reduction from other participants
+    C(yP): Cost of producing y units for the participating firms
+    C(yH): Cost of producing y units for the hold out firm
+
     TC = VC + TC
     TC = C(y) + x 
+
+    Participants 1…n: TC = C(yP)[1-r-s(n-1)] + x
+    Hold out firm:    TC = C(yH)[1-r] + x
+
+    For the next term:
+
+    Participants 1…n: TC = C(yP)[1-r-s(n-1)]^2 + x
+    Hold out firm:    TC = C(yH)[1-r]^2 + x
+
 
 Perfect competition model, so straight across Demand curve
 
