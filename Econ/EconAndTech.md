@@ -1400,3 +1400,65 @@ costs.
 Welfare Gains from Consortium
 ------
 
+18 - 03 - 2013 | Networks
+=====
+
+Network Effects
+-----
+key: demand-side economies of scale
+
+Economies of Scale
+------
+Supply-side economies of scale vs Demand-side economies of scale.
+supply-side example: mining operation
+demand-side example: instagram, facebook
+
+Adoption and Critical Mass
+-----
+Slow progress during launch
+increasing rate during takeoff
+slow down during saturation when there are no more users
+
+winner-take-all market <code>-></code> <em>tippy</em> market
+
+Tippy Markets
+-----
+
+The Tipping Point
+----
+
+Modeling the Rate of Adoption of Innovation
+-----
+(From the Reading this week)
+
+- people tell others about great products and there is a possibility the other
+  will use it too
+
+- early adopters - offer at a low price to entice these people to try your
+  product - called the bargain and ripoff strategy
+- 
+
+Economic Model of Diffusion
+------
+wasn't paying attention
+
+How the Characteristics (index z) Determine the Rate of Adoption
+----
+starts at the far right of the graph and goes to the left.
+
+Product Differentiation
+----
+Skipped movie
+
+A tipping point example
+----
+
+Metcalfe's Law
+---------
+
+Next Lecture
+=======
+
+Collective Switching Costs
+-----
+
