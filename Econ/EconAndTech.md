@@ -1456,9 +1456,48 @@ A tipping point example
 Metcalfe's Law
 ---------
 
-Next Lecture
+20 - 03 - 2013
 =======
+
+Gives market power over their customers
+
+Lock In
+-------
+i.e. photoshop -> don't want to learn gimp
+
+    branch selection -> sampling -> entrenchment (learning) -> lock-in
+
+the original supplier can extract that additional switching cost by charging
+more
+
+once the choice is made -> supplier is a monopolist
+before the choice is made -> there is competition
+
+Lock-in and Customers
+-----
+Companies may rely on people not having the time to switch
+
 
 Collective Switching Costs
 -----
+must get everyone to switch -- nearly impossible
+
+How Firms Develop Critical Mass
+----
+
+Social Welfare Implications
+------
+incompatibility can harm competition - windows vs linux?
+
+Large Firms
+-----
+
+Optimal Spillover Model
+------
+Green curve shifts left because firm gains from its own spillovers
+red curve shifts down because costs go down
+
+How would a change in the spillover ratio...
+-----
+Workers spillover benefits eventually go down because they won't have a job
 
