@@ -1501,3 +1501,121 @@ How would a change in the spillover ratio...
 -----
 Workers spillover benefits eventually go down because they won't have a job
 
+// from next lecture
+
+More Questions on Spillover Ratio
+-----
+happier workers with more spillover
+no workers at a spillover of 1
+
+"n" is the best spot
+although m thro v is good too.
+closer to m benefits investors
+closer to n benefits the workers more
+The US is about 80% ~ pretty high
+With no intellectual property rights it would be closer to 1.
+To adjust the USA?
+- Strengthen IPR's if the USA is too high?
+- Lower cost, subsidize R&D 
+
+Other countries have different spillover ratios
+
+Not really much to talk about on no 5.
+
+Spillover & CD
+-----------
+What is a drawback of too much creative destruction  (EXAM Q)
+- uncertainty?
+- did not understand
+
+Creative Destruction vs Spillovers
+------
+Spillovers calm some things down and are a disincentive to investment
+
+Policy Implications
+-----
+
+END OF MICRO
+
+// new slide
+
+25 - 03 - 2013
+======
+
+Economic Growth
+-----
+economic growth is increases in social welfare or standard of living.
+
+1. Can economic growth be sustained in the long run?
+
+2. What determines long run growth?
+
+Exogenous - technology is outside the model
+
+Its like putting the engine from the ferrari in a voltswagon.  ~ in reference to
+too much growth
+
+The Very Long Run
+-----
+Why aren't the non-oecd countries growing?
+
+USA, UK, and Ireland
+----
+
+China and India
+-----
+
+Brazil, S. Korea, Philippines
+---
+Brazil is now taking off.
+
+GDP per capita growth not everything
+-----
+Venezula ~ natural resources reserves ~ the wealth goes to the top people and
+the rest are not getting anything
+
+Neoclassical Growth Theory
+----
+Diminishing returns to capital
+- start with three people and two shovels: adding a shovel is good
+- start with three people and three shovels: adding a shovel does not benefit
+  much
+
+When there is a lot of labor, and little capital, additional capital helps
+
+saved capital is used to purchase more capital
+
+when additional capital does not help the economy becomes steady without growth
+
+the model cannot explain technical change or growth thereof
+
+production function
+- output on the left hand side, on the right hand side you have the function on
+  inputs
+
+capital accumulation equation
+- accumulate capital and depreciation
+
+Solow-Swan equations
+----
+
+Cobb-Douglas - diminishing returns to capital and labor
+
+GDP per worker and k
+------
+
+Accumulation equation
+-----
+Tend to where the steady state is or <code>delta*k = s*y</code>
+
+Solow-Swan equil
+----
+
+What happens if savings increase?
+----
+
+What if labour force grows?
+----
+it has a dilution effect, it has a negative effect on capital
+
+
