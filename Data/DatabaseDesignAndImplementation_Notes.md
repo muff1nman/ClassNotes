@@ -967,4 +967,31 @@ Isolation Levels:
 - Serializable
     - guarantees that no problems will ever occur
 
+Chapter 9 | The Domain Model and View of a Client Program
+====
 
+And object-oriented program should manipulate objects, not values.
+
+And object-oriented program should separate the view from the model.
+
+The <em>impedance mismatch</em> is the irreconcilable difference between
+value-based database tables and object-based Java classes.
+
+The <em>object-relational mapping (ORM)</em> consists of the data-layer classes
+that correspond directly to the tables in the database.
+
+An implementation strategy uses the <em>Datat Access Objects (DAO) pattern</em>,
+where each model has a public and private class.  The private class being
+respoinsible for accessing the db.
+
+In <em>eager evaluation</em> an object is computed before it is used.
+In <em>lazy evaluation</em> an object is not computed until it is needed.
+
+Issues with DAO:
+- Each DAO object should keep a cache of the objects that it has already
+  created.
+- The DAO objects should postpone database updates for as long as possible
+- The model should be able to close the connection to the database between
+  transactions
+- The DAO classes need methods for finding database objects without having to
+  know their key values.
