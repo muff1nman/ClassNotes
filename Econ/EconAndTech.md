@@ -1583,17 +1583,17 @@ Diminishing returns to capital
 
 When there is a lot of labor, and little capital, additional capital helps
 
-saved capital is used to purchase more capital
+Saved capital is used to purchase more capital
 
-when additional capital does not help the economy becomes steady without growth
+When additional capital does not help the economy becomes steady without growth
 
-the model cannot explain technical change or growth thereof
+The model cannot explain technical change or growth thereof
 
-production function
+Production function
 - output on the left hand side, on the right hand side you have the function on
   inputs
 
-capital accumulation equation
+Capital accumulation equation
 - accumulate capital and depreciation
 
 Solow-Swan equations
@@ -1617,5 +1617,93 @@ What happens if savings increase?
 What if labour force grows?
 ----
 it has a dilution effect, it has a negative effect on capital
+
+27 - 03 - 2013 (continuing from previous slides)
+=======
+
+Golden Rule
+----
+
+Over saving
+-----
+
+Solow's Surprise
+----
+
+What if technology grows?
+------
+
+Graphically
+-----
+it shifts to the right because the ratio of capital to labour becomes unstable. 
+
+Innovation process
+-----
+
+    research -> investment
+
+
+Summary of Solow-Swan
+-----
+everyone converges if there is no growth in technology
+
+// New slides
+Endogenous growth models
+-----
+Endogenous model -- "this stuff get hairy real quickly"
+
+it shows that capital investment is important (he accidentally wrote it in double
+negatives)
+
+The AK model
+----
+not completely practical because it is too simple
+
+The AK model in a diagram
+----
+increase in savings ratio -- flip investment growth line up -- increase the long
+run growth rate (not just a leveling effect)
+
+Endogenous technology growth
+-----
+K now includes all forms of capital (i.e. human capital, natural resources)
+
+
+The problem also means that all firms resemble oligopolies
+
+The production function encompasses external spillovers, the firm does not have
+the same production function.
+
+Knowledge Externalities
+------
+
+labour can be used to produce output or technology (done by research)
+
+Romer model
+-----
+
+Larger countries with higher populations are going to have higher growth
+(debatable?)
+
+
+Human capital - the Lucas model
+----
+
+Creative destruction and firm-level activity
+----
+gone over before
+
+Market failures in R&D growth models
+------
+
+What do we learn from such models?
+------
+*its the increase in knowledge from spillovers that are driving growth*
+
+- ahistorical 
+    - they don't look at historical data
+
+Competition and Growth
+-----
 
 
