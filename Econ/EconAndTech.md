@@ -1705,5 +1705,216 @@ What do we learn from such models?
 
 Competition and Growth
 -----
+Competition is a good thing for consumers but too much competition is not good
+because then there are no profits to hold over and to use for R&D
 
+contestable markets: the right number of firms to match market demand in the
+most efficient way
+
+
+// continuing slides
+01 - 04 - 2013 
+=====
+
+Do scale effects exist?
+------
+the knowledge spillovers are important
+
+
+// new slides
+// break from the book
+
+Venture Capital
+============
+
+start-up companies
+-----
+If there is asymmetric information banks and investors will not want to invest
+because they don't have the same level of knowledge
+
+Financing Young Firms
+------
+
+The Role of Venture Capital
+-----
+agency problem - the money is wasted by managers because there is no control of
+the money
+
+why is it 3 to 10 years?
+- the fund closes after a certain time
+
+What are VCs?
+-----
+Pension funds are the typical investors for VC funds
+
+The general partners organize the fund and have to give to the venture capital
+fund as well.
+
+Limited partnership makes sure there is limited liability.
+
+How VCs Operate
+----
+Too early in the S curve is not good because VCs want to focus on growth
+
+Historical Investment in VC
+------
+Ronald Regan allowed pension funds to invest in VC.
+
+Historical Returns to Investment from VC
+------
+
+Geographical Spread of VC Investment
+-----
+Investment is usually very local.
+
+Venture Capital Cycle
+----
+1. Raise Funds
+    - people with a network persuades people to invest
+2. Invest Funds in Firms
+    - select firms
+3. Monitor Firms and Add Value
+    - agency problem mitigated?
+4. Sell Firms, Close Fund, Return Investment and return to #1.
+    - IPO, sell firms
+
+Fund raising
+-----
+Pension funds want the greediest people to manage the fund so that they ensure
+the fund does well.
+
+Monitoring
+----
+1.
+2. Reduces risk
+3.
+4.
+5.
+6.
+7.
+
+03 - 04 - 2013
+==========
+
+
+Exiting Venture Capital Investment
+-------
+
+
+//new slides here
+
+Venture Capital and Growth
+-----
+
+
+The Cyclical nature of VC
+----
+Capital is tied up in firms and is not elastic and so has a vertical supply bar.
+
+
+Why is VC sticky?
+------
+cash is tied up more than stock
+
+established VC firms: with more money, comes poorer quality firms, and returns dip
+
+New VC firms are slow to enter the market because a lack of experience and
+networking
+
+#### Information Lags
+ex. the value [of a company] is first based on the assets such as buildings, which
+is much lower than the value the stock market may value it at. (underinvestment)
+
+
+Why does VC Overreact?
+-------
+
+Consequences for Innovation
+------
+VC needs people who understand the industry.
+
+There is pressure on the partners
+
+// new lecture 8 - 04 - 2013
+
+
+Policy and VC
+-------
+Government should step in when VC funding is weak.
+
+
+// new slides
+
+Innovation and Globalization
+========
+
+
+What is globalization?
+-------
+Tying economies together.
+
+Openness of financial economies allow for funds to flow across countries.
+
+
+World trade in historical perspective
+-------
+When the depressions happen, govts put tariffs in place which leads to trade
+being limited across countries.
+
+World Trade Organization (WTO) tries to limit countries tariffs.
+
+
+Theories of trade and growth
+-------
+1. Theory of comparative advantage
+    - New Zealand has a better chance of making apples and can make it cheaper
+      than say Colorado.
+2. Product Cycle Models
+    - products go through a cycle and depending on where it is will be produced
+      in other areas
+3. Learning by doing models
+4. Technology catch-up models
+    - i.e. North Korea
+
+
+Comparative Advantage
+------
+
+- HOS model
+    - you don't see diminishing returns because output doesn't affect price
+
+Both models are static.
+
+
+Product Cycle Models
+------
+1. New product
+    - requires skills and resources to develop the technology
+2. Maturing product
+3. Standardize product
+    - not complex any more and can be mass produced.
+
+
+Advanced countries still trade and dont completely specialize because there is a
+demand for variety.
+
+
+Learning by Doing models
+-------
+- tacit knowledge 
+    - not easy to just reverse engineer, there is knowledge that isnt published.
+
+
+Catch-up models
+-------
+poor countries need the capacity to absorb technology and R&D. 
+i.e. samsung in South Korea.
+
+
+Poorer countries : technological catch-up models
+-------------
+
+
+Implications of technological catch-up models
+-------
 
