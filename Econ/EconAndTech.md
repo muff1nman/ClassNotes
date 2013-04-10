@@ -1918,3 +1918,63 @@ Poorer countries : technological catch-up models
 Implications of technological catch-up models
 -------
 
+
+Catching-up and Falling behind
+------
+
+What determines absorptive capability?
+--------
+1. Institutions
+2. Accessibility
+    - FDI (Foreign Direct Investment)
+    - Proximity to other developed countries.
+3. Ability to Learn
+4. Incentives to implement new technologies
+    - low tax rates
+    - stable
+    - property rights
+
+International financial flows
+------
+encourages spillovers
+
+government uses bonds to get capital.
+
+
+Private capital flows ... from the book
+------
+the companies can fail when there is too much volatility in a countries capital
+flow.
+
+Foreign Direct Investment (Google)
+-----
+other companies follow
+brings jobs for employees
+spillovers
+
+Google Ireland
+-----
+countries/govts have to compete very hard to get firms to come in.
+
+Foreign Direct Investment
+---------
+1. 
+2. some spillover into country
+3. forces local firms to innovate or puts them out of business
+
+Short Term financial flows
+------
+- positive
+    - raising competition in financial markets - > decreases interest rate.
+- negative
+    - 
+
+Trade Openness and growth
+----
+
+DCA - overtime comparative advantage can change in the long run.
+
+International aspects of IPR
+-----
+
+
