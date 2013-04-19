@@ -1977,4 +1977,31 @@ DCA - overtime comparative advantage can change in the long run.
 International aspects of IPR
 -----
 
+// new slides
+
+Technology, wages and jobs | 17 - 04 - 2013
+============
+
+Does new technology destroy jobs?
+--------
+Low skilled workers may loose their jobs.
+
+Luddites were high skilled and lost their jobs
+
+fallacy - they can keep the workers and produce more.
+
+Process Innovation
+------
+
+Reasons for the shift in demand
+-----
+
+
+Relative wages
+-----
+
+
+Globalization - Is international trade also skill based?
+-----
+
 
