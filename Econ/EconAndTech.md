@@ -2004,4 +2004,60 @@ Relative wages
 Globalization - Is international trade also skill based?
 -----
 
+// new slides
+
+22 - 04 - 2013
+=============
+
+general
+-----
+Wednesday - macro
+Friday - final discuss
+Monday -exam review
+Wednesday - natural resources
+final - may 8th
+
+video
+-------
+predictive analysis
+
+Product Personalization
+----------
+you can also price discriminate
+
+it is bad for the consumer because they do not get as much surplus, but also
+might benefit if the stores know that you are not willing to pay as much
+
+studies show that price discrimination is good for the consumer over time
+
+Customer Information
+---------
+
+Personalized Pricing
+-----
+
+Versioning Products
+-------------
+costs of production do not reflect costs of production for versions
+
+stock market quotes are time dependent for value
+
+newspapers might have localized content offline
+
+Value-Subtraction
+--------
+Sometimes a user can turn it back on.
+
+Goldilocks pricing
+------
+The big assumption of neoclassical econ is that people are rational. This may
+not always be true. i.e. herd mentality of stock prices.
+
+Behavioral Econ Example
+--------
+if you phrase the question in a different way (gains / losses) there will be
+different results.
+
+Back to Goldilocks Pricing
+--------
 
