@@ -2013,7 +2013,7 @@ general
 -----
 Wednesday - macro
 Friday - final discuss
-Monday -exam review
+Monday - exam review
 Wednesday - natural resources
 final - may 8th
 
