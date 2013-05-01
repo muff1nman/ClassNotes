@@ -79,3 +79,5 @@ Lecture 25
 
 Office hours on wednesday.
 drop the two lowest scores for quizes.
+
+Room: mz122 

@@ -2061,3 +2061,71 @@ different results.
 Back to Goldilocks Pricing
 --------
 
+// new slides
+01 - 05 - 2013
+=====
+
+Resource Scarcity
+--------
+most of the rare earth minerals come from china. (environmental costs)
+
+Historical Perspective
+--------
+
+Economic Exhaustion
+-----------
+- Fixed Stock Paradigm
+    - peak oil theory
+        - peak production happens in '73 and then a decline.
+        - prices went up, huge lines
+        - the issue with the theory is that it doesn't take into account finding
+          new oil
+        - it was just a good guess
+        - it assumes that price stays the same which is not the case.
+        - consumers will find alternatives instead
+- Opportunity Cost Paradigm
+    - people start using other things when cost goes up
+
+Mineral Supply
+-----
+- Ricardian Rent - cheaper to get it to market because the quality is higher.
+- Hotelling Rent - You cant use a barrell in the future after you use it
+
+Mineral Prices
+------
+
+The Resource Base
+------
+Reserves - scheduled to produce
+Resources - potentially economic to produce
+Resource Base - On the whole planet (Everything)
+
+*As the price rising the potential resources become more attractive*
+
+The biomodal - the hump on the right is the easily avaialable stuff, the one on
+the left is the resource base
+
+Discontinuity of Supply
+-----
+
+Long Run Supply
+----
+
+The price would drop if a large quanity of supply was brought back to the
+market.
+
+Demand
+-----
+Increasing population will affect demand a little bit.
+
+Intensity of Use
+------
+A developed country will have a declined use of material as infrastructure
+demands fall off.
+
+Sustainability
+-----
+
+Technology and the Long run
+-----
+
