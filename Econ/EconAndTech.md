@@ -1400,7 +1400,7 @@ costs.
 Welfare Gains from Consortium
 ------
 
-18 - 03 - 2013 | Networks
+18 - 03 - 2013 | Networks | Lecture 15
 =====
 
 Network Effects
@@ -1456,13 +1456,9 @@ A tipping point example
 Metcalfe's Law
 ---------
 
-20 - 03 - 2013
-=======
-
-Gives market power over their customers
-
 Lock In
 -------
+Gives market power over their customers
 i.e. photoshop -> don't want to learn gimp
 
     branch selection -> sampling -> entrenchment (learning) -> lock-in
@@ -1489,8 +1485,9 @@ Social Welfare Implications
 ------
 incompatibility can harm competition - windows vs linux?
 
-Large Firms
------
+
+20 - 03 - 2013 | Lecture 16 | Innovation Incentives and Spillovers
+=======
 
 Optimal Spillover Model
 ------
@@ -1500,8 +1497,6 @@ red curve shifts down because costs go down
 How would a change in the spillover ratio...
 -----
 Workers spillover benefits eventually go down because they won't have a job
-
-// from next lecture
 
 More Questions on Spillover Ratio
 -----
@@ -1537,9 +1532,7 @@ Policy Implications
 
 END OF MICRO
 
-// new slide
-
-25 - 03 - 2013
+25 - 03 - 2013 | Innovation and Economic Growth | Lecture 17
 ======
 
 Economic Growth
@@ -1618,9 +1611,6 @@ What if labour force grows?
 ----
 it has a dilution effect, it has a negative effect on capital
 
-27 - 03 - 2013 (continuing from previous slides)
-=======
-
 Golden Rule
 ----
 
@@ -1647,7 +1637,9 @@ Summary of Solow-Swan
 -----
 everyone converges if there is no growth in technology
 
-// New slides
+27 - 03 - 2013 | Endogenous Economic Growth Models | Lecture 18
+=======
+
 Endogenous growth models
 -----
 Endogenous model -- "this stuff get hairy real quickly"
@@ -1711,21 +1703,12 @@ because then there are no profits to hold over and to use for R&D
 contestable markets: the right number of firms to match market demand in the
 most efficient way
 
-
-// continuing slides
-01 - 04 - 2013 
-=====
-
 Do scale effects exist?
 ------
 the knowledge spillovers are important
 
-
-// new slides
-// break from the book
-
-Venture Capital
-============
+01 - 04 - 2013 | Venture Capital | Lecture 19
+=====
 
 start-up companies
 -----
@@ -1793,19 +1776,14 @@ Monitoring
 6.
 7.
 
-03 - 04 - 2013
-==========
-
-
 Exiting Venture Capital Investment
 -------
 
-
-//new slides here
+03 - 04 - 2013 | Venture Capital, Innovation and Growth | Lecture 20
+==========
 
 Venture Capital and Growth
------
-
+---------
 
 The Cyclical nature of VC
 ----
@@ -1835,26 +1813,18 @@ VC needs people who understand the industry.
 
 There is pressure on the partners
 
-// new lecture 8 - 04 - 2013
-
-
 Policy and VC
 -------
 Government should step in when VC funding is weak.
 
-
-// new slides
-
-Innovation and Globalization
+08 - 04 - 2013 | Innovation and Globalization | Lecture 21
 ========
-
 
 What is globalization?
 -------
 Tying economies together.
 
 Openness of financial economies allow for funds to flow across countries.
-
 
 World trade in historical perspective
 -------
@@ -1977,9 +1947,7 @@ DCA - overtime comparative advantage can change in the long run.
 International aspects of IPR
 -----
 
-// new slides
-
-Technology, wages and jobs | 17 - 04 - 2013
+Technology, wages and jobs | 17 - 04 - 2013 | Lecture 22
 ============
 
 Does new technology destroy jobs?
@@ -2004,9 +1972,8 @@ Relative wages
 Globalization - Is international trade also skill based?
 -----
 
-// new slides
 
-22 - 04 - 2013
+22 - 04 - 2013 | Versioning | Lecture 23
 =============
 
 general
@@ -2061,8 +2028,11 @@ different results.
 Back to Goldilocks Pricing
 --------
 
-// new slides
-01 - 05 - 2013
+24 - 04 - 2013 | Macroeconomic issues and policies | Lecture 24
+========
+//missed lecture
+
+01 - 05 - 2013  | Technology and Mineral Resources | Lecture 25
 =====
 
 Resource Scarcity
