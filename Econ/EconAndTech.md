@@ -935,7 +935,26 @@ Welfare Gains from Consortium
 
 Network Effects
 -----
+Real or virtual
+
+Direct Network Effects
+- each user benefits from others adopting it.
+
+Indirect Network Effects
+- Adoption affects a different market.
+
+Characterisitics of Network Economies
+------
+*Key Point*
+- the value of a network depends on the number of other people connected to the
+  network
+
+Positive Feedback
+- Sucess creates more sucess and network strength
+- also makes competitors weaker
+
 key: demand-side economies of scale
+- more demand leads to increasing quality of product
 
 Economies of Scale
 ------
@@ -945,32 +964,48 @@ demand-side example: instagram, facebook
 
 Adoption and Critical Mass
 -----
-Slow progress during launch
-increasing rate during takeoff
-slow down during saturation when there are no more users
+Slow progress during <i>launch</i>
+increasing rate during <i>takeoff</i>
+slow down during <i>saturation </i>when there are no more users
+
+*Critical Mass*
+- The minimum amount of money or number of people required to start or sustain
+  an operation, business, process, etc
 
 winner-take-all market <code>-></code> <em>tippy</em> market
 
 Tippy Markets
 -----
+Is a scale economy for either the demand side or the supply side.
 
 The Tipping Point
 ----
+Think of economies of scale as epidemics.
 
 Modeling the Rate of Adoption of Innovation
 -----
 (From the Reading this week)
+
+- <strong>epidemic model</strong>
+    - random encounters cause a transfer of infromation
+    - leads to new customers
 
 - people tell others about great products and there is a possibility the other
   will use it too
 
 - early adopters - offer at a low price to entice these people to try your
   product - called the bargain and ripoff strategy
-- 
 
 Economic Model of Diffusion
 ------
-wasn't paying attention
+introduces prices, costs of adoption, and tastes and therefore a customer will
+only join when net gain is positive
+
+Taking all these differentiations into effect leads to a normal distribution of
+costs for each person.
+
+It will take product price to fall (or the network effects to increase) so that
+the higher end of the normal curve will adopt
 
 How the Characteristics (index z) Determine the Rate of Adoption
 ----
@@ -985,6 +1020,16 @@ A tipping point example
 
 Metcalfe's Law
 ---------
+MATH
+
+Switching Costs
+-----
+The costs associated with changing a supllier, system or product.
+
+Gives firms market power over their customers.
+
+Borne both by the consumer and the suppliers.
+QUESTION: Why is it born by the suppliers?
 
 Lock In
 -------
@@ -999,34 +1044,101 @@ more
 once the choice is made -> supplier is a monopolist
 before the choice is made -> there is competition
 
+the value of a locked in customer is equal to total switching costs
+- a company can extract up to the switching costs from the customer
+
+So suplliers are competitive before the customer's choice is made
+
 Lock-in and Customers
 -----
 Companies may rely on people not having the time to switch
+
+<strong>tradeoff</strong>
+- go for market share by getting new customers with lower prices
+- or 
+- harvest profits by charging high prices on exisiting customers
 
 
 Collective Switching Costs
 -----
 must get everyone to switch -- nearly impossible
 
+qualifier: product must be new and incompatible.
+
 How Firms Develop Critical Mass
 ----
 
+<strong>Markets with strong network effects exhibit "Schumpertian" competition</strong>
+QUESTION: what is Schumpertian competition?
+
+firms face a tradeoff between openness and control.
+
+Early consumer expectations are vital to obtaining critical mass.
+
+
 Social Welfare Implications
 ------
+- a tipped market cannot easily be changed back to a better product.
+
 incompatibility can harm competition - windows vs linux?
+
+large firms use product incompatibly and IPRS
 
 
 20 - 03 - 2013 | Lecture 16 | Innovation Incentives and Spillovers
 =======
 
+Spillover Ratio
+-------
+What is spillover?
+- Benefits of innovation are enjoyed by people who have not contributed to the
+  innovation.
+
+<strong>What is the socially optimal spillover ratio to achieve optimal level
+innovation?</strong>
+- on one hand zero spillover (complete appropriability) gives all benefits to
+  the innovator and nothing to society
+- on the other hand a spillover ratio of 1 doesnt give the innovator any
+  benefits from innovation and provides no incentive to do so.
+
+*CRITICAL IMAGE*
+
+spillover ratio is too large without intervention.
+
+
 Optimal Spillover Model
 ------
+*CRITICAL IMAGE*
+
 Green curve shifts left because firm gains from its own spillovers
 red curve shifts down because costs go down
 
+QUESTION: Dont quite understand this graph
+
+spillovers trigger further innovation because
+- cut dwn the expenses for duplicate technology
+- technical advance is cumulative
+- spillovers increase the number of inventors who can work effectively from the
+  base
+- spillovers increase worker productivity because of the net benefit to society
+  (i.e. increased nutrition, education, and tools)
+
 How would a change in the spillover ratio...
 -----
-Workers spillover benefits eventually go down because they won't have a job
+
+Why is a spillover ratio of 1 not the best for workers?
+- There is no incentive for innovators.
+- Workers spillover benefits eventually go down because they won't have a job
+
+Why is a spillover ratio of 0 not the best for innovators?
+- They will not be able to build off any other innventions
+- sipllovers themselves lead to more innovation and more benefit
+- workers see higher productivity when there is some benefit to society.
+
+At the top of the B curve is when the economic pie is the largest
+
+Workers want a high spillover ratio, innovators want a small one
+
 
 More Questions on Spillover Ratio
 -----
@@ -1049,29 +1161,48 @@ Not really much to talk about on no 5.
 
 Spillover & CD
 -----------
+QUESTION
 What is a drawback of too much creative destruction  (EXAM Q)
 - uncertainty?
 - did not understand
 
 Creative Destruction vs Spillovers
 ------
-Spillovers calm some things down and are a disincentive to investment
+- too much CD and innovation
+    - R&D spending can be excessive if there is duplication of R&D
+    - overinvestment because firms don't feel the loss associated with the new
+      innovation
+- Spillovers calm some things down and are a disincentive to investment
+- CD is smaller than spillovers so society wants more innovation
 
 Policy Implications
 -----
+- If S is greater than the desired level (most likely)
+    - provide funding or other assistance to cover sunk costs of innovation
+    - strengthen ipr
+    - increase resources dedicated to protecting ipr
+    - relax anti-trust laws for R&D consortiums
+    - foster high technology clusters
+
+- If S is less than the desired level?
+    - QUESTION
+    - opposite of above?
 
 END OF MICRO
 
 25 - 03 - 2013 | Innovation and Economic Growth | Lecture 17
 ======
 
+
 Economic Growth
 -----
 economic growth is increases in social welfare or standard of living.
 
 1. Can economic growth be sustained in the long run?
+ QUESTION
 
 2. What determines long run growth?
+ QUESTION
 
 Exogenous - technology is outside the model
 
@@ -1094,15 +1225,24 @@ Brazil is now taking off.
 
 GDP per capita growth not everything
 -----
-Venezula ~ natural resources reserves ~ the wealth goes to the top people and
+Focusing on economic growth neglects health, environment, education, etc
+
+GDP measures aggregate value added
+
+Venezuela ~ natural resources reserves ~ the wealth goes to the top people and
 the rest are not getting anything
 
 Neoclassical Growth Theory
 ----
 Diminishing returns to capital
 - start with three people and two shovels: adding a shovel is good
+    - low capital-labor ratio
+    - high marginal product of capital
 - start with three people and three shovels: adding a shovel does not benefit
   much
+    - capital per worker is higher
+    - low marginal product of capital
+    - falls until it covers the cost of replacing worn out shovels
 
 When there is a lot of labor, and little capital, additional capital helps
 
@@ -1113,16 +1253,41 @@ When additional capital does not help the economy becomes steady without growth
 The model cannot explain technical change or growth thereof
 
 Production function
-- output on the left hand side, on the right hand side you have the function on
+- output (GDP) on the left hand side, on the right hand side you have the function on
   inputs
+    - inputs are technology, labour and physical capital
 
 Capital accumulation equation
-- accumulate capital and depreciation
+- accumulation of capital minus depreciation
+
+QUESTION
+questions
+- How does capital accumulation (net investment) affect growth?
+    - When there is a low capital-labor ratio it will be highly beneficial
+    - When there is a high capital-labor ratio it will not benefit as much
+- What is the role of savings, depreciation and population growth?
+    - savings => increase in capital accumulation
+    - depreciation => decrease in capital accumulation
+    - population growth => decrease in the capital-labor ratio
+- What is the role of technology?
+    - It is the external multiplier for the production function!
 
 Solow-Swan equations
 ----
+test
 
-Cobb-Douglas - diminishing returns to capital and labor
+        Y = GDP
+        A = technolgy
+        K = captial
+        L = labour
+        s = proportion of GDP saved (0 : 1)
+        sigma = deprecation rate (0 : 1)
+
+        Y = A*f(K,L)
+        dK / dt = s*Y - sigma*K
+
+
+Cobb-Douglas => diminishing returns to capital and labor
 
 GDP per worker and k
 ------
@@ -1134,27 +1299,52 @@ Tend to where the steady state is or <code>delta*k = s*y</code>
 Solow-Swan equil
 ----
 
+*CRITICAL IMAGE*
+
 What happens if savings increase?
 ----
+Raising savings increases k and y but long run growth is still zero.
+
 
 What if labour force grows?
 ----
 it has a dilution effect, it has a negative effect on capital
 
+
 Golden Rule
 ----
 
+The golden rule is the optimal saving rate that maximizes consumption per person
+
+- assume A (technology) is constant but there is population growth (n)
+- this occurs where the marginal product of capital equals ( sigma + n )
+    - graphically this is when the slopes of GDP output and capital accumulation
+      are the same.
+    - the distance between GDP output per person and capital accumulation is
+      largest
+
+*CRICITAL IMAGE*
+
 Over saving
 -----
+- occurs rarely
+- increases gdp per worker but the consumption per worker decreases
 
 Solow's Surprise
 ----
+- Solow's model states that investment in capital cannot drive long run growth
+  in GDP per worker
+- Need technological change to avoid diminishing returns to capital
+
 
 What if technology grows?
 ------
+There are no diminishing returns to capital which implies positive long run
+growth
 
 Graphically
 -----
+it shifts the entire production function up.
 it shifts to the right because the ratio of capital to labour becomes unstable. 
 
 Innovation process
@@ -1165,6 +1355,14 @@ Innovation process
 
 Summary of Solow-Swan
 -----
+- if countries have the same steady states, poorer countries grow faster and
+  converge by adopting foreign technology
+
+- changes in savings ratio causes "level effect" <strong>but no long run growth
+  effect</strong>
+
+- golden rule: economies can over or under save
+
 everyone converges if there is no growth in technology
 
 27 - 03 - 2013 | Endogenous Economic Growth Models | Lecture 18
@@ -1201,8 +1399,22 @@ Knowledge Externalities
 
 labour can be used to produce output or technology (done by research)
 
+More Formal endogenous growth models
+-------
+- A firm's R&D raises its profits, but also has a positive externality on other
+  firms' R&D productivity
+- QUESTION: y production function doesn't seem quite right
+- labour is used to produce output (LY) or technology (LA)
+- Total labour supply is L = LY + LA
+
+
 Romer model
 -----
+QUESTION: i dont understand lol
+
+    dA/dt = sigma * L_A*A
+
+
 
 Larger countries with higher populations are going to have higher growth
 (debatable?)
@@ -1217,6 +1429,7 @@ gone over before
 
 Market failures in R&D growth models
 ------
+- appropriability effect (monopoly 
 
 What do we learn from such models?
 ------
