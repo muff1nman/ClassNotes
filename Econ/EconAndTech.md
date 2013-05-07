@@ -1429,7 +1429,18 @@ gone over before
 
 Market failures in R&D growth models
 ------
-- appropriability effect (monopoly 
+*EXAM*
+- appropriability effect (monopoly profits of a new innovation are less than
+  consumer surplus) which means too little R&D
+- Creative-destruction, or business stealing, effect
+    - new innovation destroys profits of existing firms
+    - private innovator ignores this effect 
+    - too much R&D
+- knowledge spillover effect
+    - each firm's R&D helps reduce costs of other innovations
+        - positive externality
+    - too little R&D
+
 
 What do we learn from such models?
 ------
@@ -1440,15 +1451,22 @@ What do we learn from such models?
 
 Competition and Growth
 -----
-Competition is a good thing for consumers but too much competition is not good
-because then there are no profits to hold over and to use for R&D
+- Endogenous growth models imply greater competition, lower profits, and lower
+  incentive to do R&D and lower growth
+- but this conflicts with economists' basic beleif that competition is 'good'!
+- intuitive idea is that 'monopolies' don't innovate
+    - QUESTION: wait what?
 
-contestable markets: the right number of firms to match market demand in the
-most efficient way
+Other notes:
+- Competition is a good thing for consumers but too much competition is not good
+  because then there are no profits to hold over and to use for R&D
+
+- contestable markets
+- the right number of firms to match market demand in the most efficient way
 
 Do scale effects exist?
 ------
-the knowledge spillovers are important
+knowledge spillovers are important
 
 01 - 04 - 2013 | Venture Capital | Lecture 19
 =====
