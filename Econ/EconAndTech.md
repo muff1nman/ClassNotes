@@ -1473,19 +1473,49 @@ knowledge spillovers are important
 
 start-up companies
 -----
+- typically small and young firms started by entrepreneurs leaving universities
+  or corporations
+- few tangible assets
+- high levels of uncertainty
+    - high risk of failure
+    - chance of high rewards
+- Asymmetric information
+    - Large differences between what the entrepreneur and the investors know
+
 If there is asymmetric information banks and investors will not want to invest
 because they don't have the same level of knowledge
 
 Financing Young Firms
 ------
+Potential sources of captial
+- Debt
+    - borrow cash and pay back with interest
+- equity 
+    - trade shares of ownership for cash
+- angle investors
+- strategic investors
+- venture capital
+    - independent, professionally managed, dedicated pools of capital that focus
+      on equity or equity-linked investments in privately held, high growth
+      companies
 
 The Role of Venture Capital
 -----
-agency problem - the money is wasted by managers because there is no control of
-the money
-
-why is it 3 to 10 years?
-- the fund closes after a certain time
+- Venture capital firms target firms that have high growth potential but also
+  high risk of failure and have difficulty raising captial
+- banks and other traditional sources of capital are often limited in their
+  ability to charge a high enough interest rate to justify the risk of
+  investment in such young firms.
+- traditional sources of equity may be relucant to invest in a firm because they
+  are unsure of how the money will be spent as they have no say in the business.
+    - agency problem 
+        - the money is wasted by managers because there is no control of the
+          money
+- VC fills a gap in the capital markets
+    - provides funding to start-ups while expecting to see a ten times return
+      from their investment over a short periord
+    - why is it 3 to 10 years?
+        - the fund closes after a certain time
 
 What are VCs?
 -----
@@ -1498,7 +1528,13 @@ Limited partnership makes sure there is limited liability.
 
 How VCs Operate
 ----
-Too early in the S curve is not good because VCs want to focus on growth
+- A VC typically focuses on a particular industry such as high-tech
+- VC focuses on the middle of the technology S curve
+    - Too early in the S curve is not good because VCs want to focus on growth
+- VC firms are mostly private funds so are exempty from many SEC regulations.
+- Firms are often partnerships or limited partnerships
+    - general partners manage the fund
+    - investors are limited partners with no management power
 
 Historical Investment in VC
 ------
@@ -1524,21 +1560,38 @@ Venture Capital Cycle
 
 Fund raising
 -----
+- General partners invest in the fund (1%)
+- partners keep 30% of the return for themselves
+
 Pension funds want the greediest people to manage the fund so that they ensure
 the fund does well.
 
 Monitoring
 ----
-1.
-2. Reduces risk
-3.
-4.
-5.
-6.
-7.
+<strong>VC firms can take a number of steps to add value to or monitor a firm</strong>
+1. release cash to the firm in stages
+2. Sydnidcate with other VC firms for second opinions and to share risk
+    - Reduces risk
+3. Hire better executives for the firm
+4. Sit on the board of the companies in which they invest
+5. Control future compensation (stock options)
+6. Hold the right to any assests in the event of firm failure
+7. Walk away from failing firms
 
 Exiting Venture Capital Investment
 -------
+<strong>
+Investments can be terminated by:
+</strong>
+- VC can walk away
+- Firms can bet acquied by or merged with other established firms
+- Initial public offering (IPO)
+    - this is most profitable option
+    - Sell shares in the firm to the public
+    - Share prices are rarely under-priced
+    - VC firm can time this to happen at the height of the market during a boom
+      to maximize the value of their fund
+    - VC cannot "cash-out" too quickly
 
 03 - 04 - 2013 | Venture Capital, Innovation and Growth | Lecture 20
 ==========
