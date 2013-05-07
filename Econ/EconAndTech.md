@@ -1598,20 +1598,42 @@ Investments can be terminated by:
 
 Venture Capital and Growth
 ---------
+- What role does venture capital play in America's growth?
+- How should the government interact with the venture capital industry to
+  enhance growth?
 
 The Cyclical nature of VC
 ----
-Capital is tied up in firms and is not elastic and so has a vertical supply bar.
+Supply => funds from investors
+Demand => the number of entrepreneurial firms seekign funding
+*CRITICAL IMAGE*
+
+What happens if we have many sudden technological breakthroughs in a high-tech
+industry?
+    - demand shock and many new firms seeking capital
+
+*NONCRITICAL IMAGE*
+- Capital is tied up in firms and is not elastic and so has a vertical supply bar.
+- VC may be slow to repsond or <i>sticky</i>
 
 
 Why is VC sticky?
 ------
-cash is tied up more than stock
+- the structure of VC funds
+    - cash is tied up more than stock
+        - contributions only at the beginning of a fund
+        - returns on investment only when the fund closes
+    - established vc firms are reluctant to take on more money than they can
+      manage
+        - with more money, comes poorer quality firms, and returns dip
+    - New VC firms are slow to enter the market because a lack of experience and
+      networking
+- information lags
+    - investors have a hard time guessing what the state of a market is
+    - VC firms do not report the market-value of the companies they invest in
 
-established VC firms: with more money, comes poorer quality firms, and returns dip
-
-New VC firms are slow to enter the market because a lack of experience and
-networking
+<strong>Stickiness can lead to underinvestment/overinvestment in a technology
+sector</strong>
 
 #### Information Lags
 ex. the value [of a company] is first based on the assets such as buildings, which
@@ -1620,6 +1642,16 @@ is much lower than the value the stock market may value it at. (underinvestment)
 
 Why does VC Overreact?
 -------
+- VC fails to account for the impact of competitors
+    - overestimation of demand
+- VC firms may be overloaded with investment
+- overinvestment leads to poor returns for VC!
+
+*NONCRITICAL IMAGE*
+
+VC Overload
+-------
+- institutional investors try to maintian a ratio of VC and may overinvest
 
 Consequences for Innovation
 ------
@@ -1629,7 +1661,14 @@ There is pressure on the partners
 
 Policy and VC
 -------
-Government should step in when VC funding is weak.
+- VC tends to pool in popular investment areas, leading to duplication, bidding
+  wars and many times poor performacne that can scare away investors for a
+  period
+- VC tends to be <i>least effective during boom periods and most effective during
+  cold periods</i>
+- Government should step in when VC funding is weak.
+    - follow up funding when VC funding goes away
+    - technology areas not popular with VC firms
 
 08 - 04 - 2013 | Innovation and Globalization | Lecture 21
 ========
