@@ -1673,6 +1673,12 @@ Policy and VC
 08 - 04 - 2013 | Innovation and Globalization | Lecture 21
 ========
 
+International Aspects of Intellectual property rights
+------------
+- countries free ride on each other's iprs
+- national treatment
+    - leads to suboptimal length of protection
+
 What is globalization?
 -------
 Tying economies together.
@@ -1724,26 +1730,52 @@ demand for variety.
 
 Learning by Doing models
 -------
-- tacit knowledge 
+- incorporates spillovers
+- tacit knowledge is spillover confined within a region
     - not easy to just reverse engineer, there is knowledge that isnt published.
+- Advanced economies focus on high-growth new tech products
+- Developing economies focus on low-growth industries
 
+<strong>Result: Divergence of GDP per capita between advanced and developing
+economies</strong>
 
 Catch-up models
 -------
+- Developing countries try to leap-frog into the product space
+- Two issues
+    - the size of the technology gap
+    - the absorptive capaccity of the follower
+
 poor countries need the capacity to absorb technology and R&D. 
 i.e. samsung in South Korea.
 
+Sometimes a government may protect new infant industries but this is
+controversial and may lead to trade barriers
 
 Poorer countries : technological catch-up models
 -------------
+Technology gap is the difference between (A) divided by the countries A
+
+    (Ausa - Ai) / Ai
+
+the absorptive capability is the ability to learn, absorb and implement overseas
+technology.
+
+    growth of technology in country = dA / dt / Ai = acap * (Ausa - Ai) / Ai
+
+Implies there is a convergence in growth rates of technology
 
 
 Implications of technological catch-up models
 -------
+*CRITICAL IMAGE*
 
 
 Catching-up and Falling behind
 ------
+- above model predicts poor countries catch up but many show very low growth
+  rates
+- some countries have an absorptive capacity of zero
 
 What determines absorptive capability?
 --------
@@ -1752,6 +1784,9 @@ What determines absorptive capability?
     - FDI (Foreign Direct Investment)
     - Proximity to other developed countries.
 3. Ability to Learn
+    - human capital
+    - technical skills
+    - schooling, higher education, training
 4. Incentives to implement new technologies
     - low tax rates
     - stable
@@ -1781,19 +1816,35 @@ countries/govts have to compete very hard to get firms to come in.
 
 Foreign Direct Investment
 ---------
-1. 
+Host country:
+1. raise domenstic productivity and some is retained in domestic economy
 2. some spillover into country
 3. forces local firms to innovate or puts them out of business
+    - local competition may help or hurt economic growth
 
 Short Term financial flows
 ------
 - positive
+    - ease capital market constraints
     - raising competition in financial markets - > decreases interest rate.
 - negative
-    - 
+    - focus on short run, introduces instability
 
 Trade Openness and growth
 ----
+<strong>four key mechanisms at work in models of trade and growth</strong>
+- trade increases potential market size
+    - exports
+    - increasing market size => more profits => + growth
+- trade increases domestic competition
+    - imports
+    - increasing competition => less profits => - growth, although there may be
+      an incentive effect
+- trade and factor price equalisation
+    - FPE => marginal product of capital equal across countries (convergance)
+- Dyanic comparative advantage
+    - A changing pattern of comparative advantage over time due to changes in
+      factor endownments or technology.
 
 DCA - overtime comparative advantage can change in the long run.
 
@@ -1811,19 +1862,68 @@ Luddites were high skilled and lost their jobs
 
 fallacy - they can keep the workers and produce more.
 
+skill-biased technical change (SBTC) is the change in relative employment of
+both sets of workers (unskilled and skilled)
+
+process innovation
+- new ways of making and delivering products
+product innovation
+- firm brings new varieties and qualities of products to the market
+
 Process Innovation
 ------
+- new technique increases efficiency and thus lowers costs of production
+- fewer workers can produce the same output
+- technological redundancy
+
+Output Expansion Effect
+- cost reduction may lead firm to expand its output
+- potentially this leads to more jobs on balance
+
+Product Innovation
+------
+- firm can capture new or increased segments of markets
+- leads to more jobs
+
+*Note* bot process and product innovation are welfare increasing
 
 Reasons for the shift in demand
 -----
+- skill biased technological change
+- globalization and specialization in trade
+- changes in composition of final demand
 
 
 Relative wages
 -----
+relative wage is affected by two ratios
+- difference in productivity growth of each type of labor
+- relative supply of each type of labor
 
+<strong>three input model</strong>
+- difference in productivity growth of each type of labour
+- relative supply of each type of labor
+- the added effect driving demand for skilled albor is that it is
+  <strong>complementary with capital equipment</strong>
+
+Predicitions of the three input model
+-----
+- relative wage of skilled workers rises with any increase in ratio of equipment
+  to skilled labor
+- innovation has improved productivity of captial so an increase in captial
+  intensity has occurred.
+- big rise in computer use has increased demand for skilled labour
+- the use of robots and other automation has reduced demand for unskilled
+- evidence in the us
 
 Globalization - Is international trade also skill based?
 -----
+
+Demand - A third cause of skill bias?
+---------
+more demand for luxury goods 
+- high technology innovative products require skilled labor to design and
+  produce
 
 
 22 - 04 - 2013 | Versioning | Lecture 23
